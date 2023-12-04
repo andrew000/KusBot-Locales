@@ -17,4 +17,4 @@ inventory--items-text = {inventory--items}
     { $items }
 inventory--not-implemented = inventory--not-implemented
 
-inventory--closed = inventory--closed
+inventory--closed = ✅ Інвентар закрито
