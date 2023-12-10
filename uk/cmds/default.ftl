@@ -1,7 +1,7 @@
 cmds-default--help-text = cmds-default--help-text
 cmds-default--yuy-text = cmds-default--yuy-text
-cmds-default--privacy = політика конфіденційності
-cmds-default--public_offer = публічна оферта
+cmds-default--privacy = Політика конфіденційності
+cmds-default--public_offer = Публічна оферта
 cmds-default--start-text =
     ⚠️ Наразі Бот працює в тестовому режимі та може інколи не відповідати.
     Приносимо вибачення за незручності.

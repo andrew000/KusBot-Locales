@@ -1,5 +1,5 @@
 resources-rarity--common = ⚪️ Звичайний
-resources-rarity--uncommon = 🟢 Незвчиайний
+resources-rarity--uncommon = 🟢 Незвичайний
 resources-rarity--rare = 🔵 Рідкісний
 resources-rarity--epic = 🟣 Епічний
 resources-rarity--legendary = 🟡 Легендарний

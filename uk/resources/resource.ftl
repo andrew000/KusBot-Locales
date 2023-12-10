@@ -1,4 +1,4 @@
-resources-resource--wood-name = деревина
+resources-resource--wood-name = Деревина
 resources-resource--wood-description = Деревина — використовується для виготовлення предметів із дерева.
 resources-resource--stone-name = Камінь
 resources-resource--stone-description = resources-resource--stone-description
