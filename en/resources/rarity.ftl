@@ -1,7 +1,7 @@
-resources-rarity--common = resources-rarity--common
-resources-rarity--uncommon = resources-rarity--uncommon
-resources-rarity--rare = resources-rarity--rare
-resources-rarity--epic = resources-rarity--epic
-resources-rarity--legendary = resources-rarity--legendary
-resources-rarity--mythical = resources-rarity--mythical
-resources-rarity--divine = resources-rarity--divine
+resources-rarity--common = ⚪️ Common
+resources-rarity--uncommon = 🟢 Uncommon
+resources-rarity--rare = 🔵 Rare
+resources-rarity--epic = 🟣 Epic
+resources-rarity--legendary = 🟡 Legendary
+resources-rarity--mythical = 🟠 Mythical
+resources-rarity--divine = 🔴 Divine

@@ -1,3 +1,16 @@
-chat_member-chat_member--farewell = chat_member-chat_member--farewell { $mention }
-chat_member-chat_member--any_to_member-greetings_message = chat_member-chat_member--any_to_member-greetings_message { $mention }
-# chat_member-chat_member--any_to_unhandled = chat_member-chat_member--any_to_unhandled { $user_id } { $mention } { $old_status } { $new_status }
+chat_member-chat_member--farewell =
+    😿 Purr-furr, are you coming out?
+    
+    We will always remember you as the sweetest and most affectionate member of our chat.
+    
+    We hope you'll be happy in your new adventures! 🌟
+    
+    Bye, {$mention}!
+chat_member-chat_member--any_to_member-greetings_message =
+    👋 Hello, {$mention}!
+    
+    🐾 I am <b>Kuska</b>, and I'm here to, introduce you to all the members of our chat.
+    
+    😸 Here we discuss various topics, share news and just spend time in good company.
+    
+    🌟 Nice to see you among us!

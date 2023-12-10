@@ -1,14 +1,18 @@
-inventory--inventory = inventory--inventory
-inventory--i = inventory--i
-inventory--items = inventory--items
-inventory--resources = inventory--resources
-inventory--weapons = inventory--weapons
-inventory--prev-page = inventory--prev-page
-inventory--next-page = inventory--next-page
-inventory--close = inventory--close
-inventory--items-text = inventory--items-text { $items }
-inventory--not-implemented = inventory--not-implemented
-inventory--closed = inventory--closed
-inventory--unknown-window = inventory--unknown-window
-inventory--resources-text = inventory--resources-text { $resources }
+inventory--items = ✨ Items
+inventory--resources = 📦 Resources
+inventory--weapons = 🗡️ Weapons
+inventory--close = ❌ Close
+inventory--inventory = inventory
+inventory--i = i
+inventory--next-page = ➡️
+inventory--prev-page = ⬅️
 inventory--weapons-not-implemented = inventory--weapons-not-implemented
+inventory--unknown-window = ⚠️ Unknown inventory window
+inventory--resources-text =
+    📦 Resources
+    { $resources }
+inventory--items-text =
+    ✨ Items
+    { $items }
+inventory--not-implemented = inventory--not-implemented
+inventory--closed = ✅ Inventory closed
