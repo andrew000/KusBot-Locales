@@ -10,7 +10,6 @@ restrictions--ban-usage =
     <b>&#128161; Приклад:</b>
     - <code>/ban @username 1d12h Причина блокування</code>
     - <code>/ban id123456789 1d Причина блокування</code>
-
 restrictions--ban-usage-advanced =
     { restrictions--ban-usage }
 
@@ -23,7 +22,6 @@ restrictions--ban-usage-advanced =
         &#183; h - години
         &#183; m - хвилини
     &#128161; Приклад: 1d12h - 1 день 12 годин;
-
 restrictions--ban-show-advanced-info = 💡 Більше інфо
 restrictions--set-user-or-reply = restrictions--set-user-or-reply
 restrictions--cant-ban-admin = restrictions--cant-ban-admin
