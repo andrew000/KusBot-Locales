@@ -31,3 +31,7 @@ restrictions--set_reason-mute_message = restrictions--set_reason-mute_message { 
 restrictions--set_reason-ban_message = restrictions--set_reason-ban_message { $admin_mention } { $edited_by } { $until_date } { $victim_mention } { $reason }
 restrictions--set_reason-kick_message = restrictions--set_reason-kick_message { $admin_mention } { $victim_mention } { $reason } { $edited_by }
 restrictions--set_reason-pardon_message = restrictions--set_reason-pardon_message { $admin_mention } { $victim_mention } { $reason } { $edited_by }
+restrictions--ban-show-advanced-info = restrictions--ban-show-advanced-info
+restrictions--ban-usage-advanced = restrictions--ban-usage-advanced
+restrictions--close-advanced-info = restrictions--close-advanced-info
+restrictions--closed = restrictions--closed
