@@ -1,7 +1,7 @@
-language--language = language--language
-language--lang = language--lang
-language--choose_lang = language--choose_lang
-language--select_callback-success = language--select_callback-success { $language }
+language--language = язык
+language--lang = язык
+language--choose_lang = 🌐 Выберите язык
+language--select_callback-success = Выбран язык: { $language }
 language--en = 🇺🇸 English
 language--uk = 🇺🇦 Українська
 language--ru = 🇷🇺 Российский

@@ -1,6 +1,3 @@
-# keyboards--en-button = keyboards--en-button
-# keyboards--uk-button = keyboards--uk-button
-# keyboards--ru-button = keyboards--ru-button
 keyboards--goto_start-button = keyboards--goto_start-button
 keyboards--main-button = keyboards--main-button
 keyboards--admin-button = keyboards--admin-button
