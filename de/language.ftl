@@ -1,0 +1,10 @@
+language--en = language--en
+language--uk = language--uk
+language--pl = language--pl
+language--de = language--de
+language--ja = language--ja
+language--ru = language--ru
+language--language = language--language
+language--lang = language--lang
+language--choose_lang = language--choose_lang
+language--select_callback-success = language--select_callback-success { $language }

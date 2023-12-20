@@ -1,6 +1,3 @@
-keyboards--en-button = 🇺🇸 English
-keyboards--uk-button = 🇺🇦 Українська
-keyboards--ru-button = 🇷🇺 узкий
 keyboards--goto_start-button = 🏠 На головну
 keyboards--main-button = 📜 Основні
 keyboards--admin-button = 👮‍♂️ Адмін
