@@ -1,4 +1,4 @@
-keyboards--goto_start-button = 🏠 Go to start
+# keyboards--goto_start-button = 🏠 На головну
 keyboards--main-button = 📜 General
 keyboards--admin-button = 👮‍♂️ Admin
 keyboards--vip-button = 👑 VIP 
@@ -8,4 +8,6 @@ keyboards--language-button = 🌐 Language | Мова
 keyboards--commands-button = 📚 Commands
 keyboards--add_to_group-button = 🚀 Add Bot to Group
 keyboards--inventory-button = 📦 Inventory
-keyboards--more_info-button = 📖 More information
+# keyboards--more_info-button = 📖 Більше інформації
+keyboards--settings-button = ⚙️ Settings
+keyboards--close-button = ❌ Close
