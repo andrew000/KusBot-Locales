@@ -1,25 +1,25 @@
-settings--settings = налаштування
-settings--gender-male = 👨 Чоловік
-settings--gender-female = 👩 Жінка
-settings--language = мова
-settings--lang = мова
-settings--choose_language = 🌐 Виберіть мову
+settings--settings = settings
+settings--gender-male = 👨 Male
+settings--gender-female = 👩 Female
+settings--language = language
+settings--lang = lang
+settings--choose_language = 🌐 Select language
 settings--settings-text =
-    ⚙️ Налаштування
+    ⚙️ Settings
     
-    🌐 Мова: { $language }
-    ♂️ Стать: { $gender ->
+    🌐 Language: {$language }
+    ♂️ Gender: {$gender ->
         [m] { settings--gender-male }
         [f] { settings--gender-female }
-       *[other] Невідомо
+       *[other] Unknown
     }
-settings--gender-button = ♂️ Обрати стать
-settings--gender-text = ♂️ Оберіть свою стать
+settings--gender-button = ♂️ Choose gender
+settings--gender-text = ♂️ Select your gender
 settings--gender-selected-text =
-    ♂️ Обрано стать: { $gender ->
+    ♂️ Gender selected: { $gender ->
         [m] { settings--gender-male }
         [f] { settings--gender-female }
-       *[other] Невідомо
+       *[other] Unknown
     }
 settings--language-selected-text =
     Selected language: { $language ->
@@ -41,4 +41,4 @@ settings--language-code =
         [ru] 🇷🇺 Российский
        *[other] Невідомо
     }
-settings--closed = ✅ Налаштування закрито
+settings--closed = ✅ Settings closed

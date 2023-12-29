@@ -1,15 +1,15 @@
 restrictions-pardon--usage =
-    <b>📚 Документація [ /pardon ]</b>
+    <b>📚 Documentation [/pardon ]</b>
     
-    <b>📝 Опис:</b>
-    Команда /pardon використовується для помилування учасників чату.
+    <b>📝 Description:</b>
+    Command /pardon is used to pardon chat members.
     
-    <b>✋ Використання:</b>
-    - /pardon [користувач] [причина розблокування]
+    <b>✋ Usage:</b>
+    - /pardon [member] [pardon reason]
     
-    <b>💡 Приклад:</b>
-    - <code>/pardon @username Причина помилування</code>
-    - <code>/pardon id123456789 Причина помилування</code>
+    <b>💡 Example:</b>
+    - <code>/pardon @username Pardon reason</code>
+    - <code>/pardon id123456789 Pardon reason</code>
 restrictions-pardon--usage-advanced =
     { restrictions-pardon--usage }
     
@@ -17,13 +17,13 @@ restrictions-pardon--usage-advanced =
     ● Command can be used in response to a members message.
     ● If the reason is not set, it will be set to "No reason".
 restrictions-pardon--set-user-or-reply =
-    <b>⚠ Помилка:</b>
+    <b>⚠ Error:</b>
     
-    <i>— Я не змогла знайти користувача, якого ви хочете помилувати.</i>
+    <i>— I can't find member, you want to pardon.</i>
     
-    <i>💁‍♂️ Спробуйте вказати його ID або ж відповісти командою на його повідомлення.</i>
+    <i>💁‍♂️ Set member's ID or reply with a command on his message.</i>
     
-    <b>💡 Приклад:</b>
+    <b>💡 Example:</b>
     - <code>/pardon id123456</code>
 restrictions-pardon--cant-pardon-admin =
     <b>⚠ Error:</b>
@@ -41,7 +41,7 @@ restrictions-pardon--text =
     
     ADMIN: { $admin_mention }
     
-    Pardon reason: { $reason }
+    Reason: { $reason }
 restrictions-pardon--sender-chat-text =
     #PARDON #SENDER_CHAT
     
@@ -50,7 +50,7 @@ restrictions-pardon--sender-chat-text =
     
     ADMIN: { $admin_mention }
     
-    Pardon reason: { $reason }
+    Reason: { $reason }
 restrictions-pardon--error =
     <b>⚠ Error:</b>
     

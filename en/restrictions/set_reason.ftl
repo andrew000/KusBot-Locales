@@ -2,7 +2,7 @@ restrictions-set_reason--usage =
     <b>📚 Documentation [ /sr ]</b>
     
     <b>📝 Description:</b>
-    Command /sr used for updating mute, ban, kick or pardon reason.
+    Command /sr is used to update the reason for mute, ban, kick or pardon.
     
     Command should be replied on bot's message, you want to edit.
     
@@ -18,11 +18,11 @@ restrictions-set_reason--usage-advanced =
     ● Command should be replied on bot's message, you want to edit;
     ● If reason is not set, it will be set to "No reason";
 restrictions-set_reason--not_restriction_message_or_expired =
-    <b>⚠ Помилка:</b>
+    <b>⚠ Error:</b>
     
-    <i>— Це повідомлення не є повідомленням про обмеження або воно вже не актуальне.</i>
+    <i>—This message is not Restriction Message, or it's expired.</i>
     
-    <i>💁‍♂️ Спробуйте відправити команду у відповідь на повідомлення бота, яке ви хочете відредагувати.</i>
+    <i>💁‍♂️ Reply on bot's message, you want to edit.</i>
 restrictions-set_reason--mute_message =
     #MUTE
     
@@ -33,7 +33,7 @@ restrictions-set_reason--mute_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Mute reason: { $reason }
+    Reason: { $reason }
 restrictions-set_reason--ban_message =
     #BAN
     
@@ -44,7 +44,7 @@ restrictions-set_reason--ban_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Ban reason: { $reason }
+    Reason: { $reason }
 restrictions-set_reason--kick_message =
     #KICK
     
@@ -54,7 +54,7 @@ restrictions-set_reason--kick_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Kick reason: { $reason }
+    Reason: { $reason }
 restrictions-set_reason--pardon_message =
     #PARDON
     
@@ -64,7 +64,7 @@ restrictions-set_reason--pardon_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Pardon reason: { $reason }
+    Reason: { $reason }
 restrictions-set_reason--ban_sc_message =
     #BAN #SENDER_CHAT
     
@@ -74,7 +74,7 @@ restrictions-set_reason--ban_sc_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Ban reason: { $reason }
+    Reason: { $reason }
 restrictions-set_reason--pardon_sc_message =
     #PARDON #SENDER_CHAT
     
@@ -84,10 +84,10 @@ restrictions-set_reason--pardon_sc_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Pardon reason: { $reason }
+    Reason: { $reason }
 restrictions-set_reason--unknown_restriction_type =
-    <b>⚠ Помилка:</b>
+    <b>⚠ Error:</b>
     
-    <i>— Невідомий тип обмеження.</i>
+    <i>— Unknown restriction type.</i>
     
-    <i>💁‍♂️ Мабуть, це повідомлення не є повідомленням про обмеження.</i>
+    <i>💁‍♂️ Probably, this message isn't a restriction message.</i>

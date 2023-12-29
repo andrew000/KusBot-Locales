@@ -1,15 +1,15 @@
 restrictions-kick--usage =
-    <b>📚 Документація [ /kick ]</b>
+    <b>📚 Documentation [ /kick ]</b>
     
-    <b>📝 Опис:</b>
-    Команда /kick використовується щоб виганяти учасників чату.
+    <b>📝 Description:</b>
+    Command /kick is used to kick members.
     
-    <b>✋ Використання:</b>
-    - /kick [користувач] [причина вигнання]
+    <b>✋ Usage:</b>
+    - /kick [member] [kick reason]
     
-    <b>💡 Приклад:</b>
-    - <code>/kick @username Причина вигнання</code>
-    - <code>/kick id123456789 Причина вигнання</code>
+    <b>💡 Example:</b>
+    - <code>/kick @username Kick reason</code>
+    - <code>/kick id123456789 Kick reason</code>
 restrictions-kick--usage-advanced =
     { restrictions-kick--usage }
     
@@ -48,4 +48,4 @@ restrictions-kick--text =
     
     ADMIN: { $admin_mention }
     
-    Kick reason: { $reason }
+    Reason: { $reason }

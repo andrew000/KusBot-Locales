@@ -13,15 +13,15 @@ restrictions-mute--usage =
 restrictions-mute--usage-advanced =
     { restrictions-mute--usage }
     
-    <b>⚠ Зверніть увагу:</b>
-    ● Команду можна використовувати у відповідь на повідомлення порушника.
-    ● Якщо час заглушення не вказано, то користувач буде заглушений <b><u>назавжди</u></b>;
-    ● Якщо причина заглушення не вказана, то вона буде встановлена як "Без причини";
-    ● Час повинен бути вказаний у форматі: [Число+одиниця виміру часу]
-        · d - дні
-        · h - години
-        · m - хвилини
-    💡 Приклад: 1d12h - 1 день 12 годин;
+    <b>⚠ Pay attention:</b>
+    ● Command can be used in response to a members message.
+    ● If the mute time is not set, member will be muted <b><u>forever</u></b>;
+    ● If the reason for the mute is not set, it will be set to "No reason";
+    ● The time must be set in the format: [Number+time unit]
+        · d - days
+        · h - hours
+        · m - minutes
+    💡 Example: 1d12h - 1 day 12 hour;
 restrictions-mute--set-user-or-reply =
     <b>⚠ Помилка:</b>
     
@@ -54,4 +54,4 @@ restrictions-mute--text =
     
     ADMIN: { $admin_mention }
     
-    Mute reason: { $reason }
+    Reason: { $reason }

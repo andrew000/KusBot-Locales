@@ -13,23 +13,23 @@ restrictions-ban--usage =
 restrictions-ban--usage-advanced =
     { restrictions-ban--usage }
     
-    <b>⚠ Зверніть увагу:</b>
-    ● Команду можна використовувати у відповідь на повідомлення порушника.
-    ● Якщо час блокування не вказано, то користувач буде заблокований <b><u>назавжди</u></b>;
-    ● Якщо причина блокування не вказана, то вона буде встановлена як "Без причини";
-    ● Час повинен бути вказаний у форматі: [Число+одиниця виміру часу]
-        · d - дні
-        · h - години
-        · m - хвилини
-    💡 Приклад: 1d12h - 1 день 12 годин;
+    <b>⚠ Pay attention:</b>
+    ● Command can be used in response to a members message.
+    ● If the blocking time is not set, member will be blocked <b><u>forever</u></b>;
+    ● If the reason is not set, It will be set to "No reason";
+    ● The time must be set in the format: [Number+time unit]
+        · d - days
+        · h - hours
+        · m - minutes
+    💡 Example: 1d12h - 1 day 12 hours;
 restrictions-ban--set-user-or-reply =
-    <b>⚠ Помилка:</b>
+    <b>⚠ Error:</b>
     
-    <i>— Я не змогла знайти користувача, якого ви хочете заблокувати.</i>
+    <i>— I can't find member, you want to ban.</i>
     
-    <i>💁‍♂️ Спробуйте вказати його ID або ж відповісти командою на його повідомлення.</i>
+    <i>💁‍♂️ Set member's ID or reply with a command on his message.</i>
     
-    <b>💡 Приклад:</b>
+    <b>💡 Example:</b>
     - <code>/ban id123456</code>
 restrictions-ban--cant-ban-admin =
     <b>⚠ Error:</b>
@@ -54,7 +54,7 @@ restrictions-ban--text =
     
     ADMIN: { $admin_mention }
     
-    Ban reason: { $reason }
+    Reason: { $reason }
 restrictions-ban--sender-chat-text =
     #BAN #SENDER_CHAT
     
@@ -63,4 +63,4 @@ restrictions-ban--sender-chat-text =
     
     ADMIN: { $admin_mention }
     
-    Причина бану: { $reason }
+    Reason: { $reason }

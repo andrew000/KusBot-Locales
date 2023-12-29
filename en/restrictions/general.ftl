@@ -10,11 +10,11 @@ restrictions-general--not-enough-rights =
     
     <i>💁‍♂️ Promote me to admin.</i>
 restrictions-general--reason-too-long =
-    <b>⚠ Помилка:</b>
+    <b>⚠ Error:</b>
     
-    <i>— Причина занадто довга.</i>
+    <i>— Reason text is too long.</i>
     
-    <i>💁‍♂️ Спробуйте скоротити її до { $max_length } символів.</i>
+    <i>💁‍♂️ Max reason text is { $max_length } symbols.</i>
 restrictions-general--cant-restrict-sender-chat =
     <b>⚠ Error:</b>
     
