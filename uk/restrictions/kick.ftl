@@ -48,4 +48,4 @@ restrictions-kick--text =
     
     ADMIN: { $admin_mention }
     
-    Причина вигнання: { $reason }
+    Причина: { $reason }

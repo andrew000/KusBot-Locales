@@ -54,7 +54,7 @@ restrictions-ban--text =
     
     ADMIN: { $admin_mention }
     
-    Причина бану: { $reason }
+    Причина: { $reason }
 restrictions-ban--sender-chat-text =
     #BAN #SENDER_CHAT
     
@@ -63,4 +63,4 @@ restrictions-ban--sender-chat-text =
     
     ADMIN: { $admin_mention }
     
-    Причина бану: { $reason }
+    Причина: { $reason }

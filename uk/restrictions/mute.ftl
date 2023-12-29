@@ -54,4 +54,4 @@ restrictions-mute--text =
     
     ADMIN: { $admin_mention }
     
-    Причина муту: { $reason }
+    Причина: { $reason }

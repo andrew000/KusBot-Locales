@@ -41,7 +41,7 @@ restrictions-pardon--text =
     
     ADMIN: { $admin_mention }
     
-    Причина помилування: { $reason }
+    Причина: { $reason }
 restrictions-pardon--sender-chat-text =
     #PARDON #SENDER_CHAT
     
@@ -50,7 +50,7 @@ restrictions-pardon--sender-chat-text =
     
     ADMIN: { $admin_mention }
     
-    Причина помилування: { $reason }
+    Причина: { $reason }
 restrictions-pardon--error =
     <b>⚠ Помилка:</b>
     

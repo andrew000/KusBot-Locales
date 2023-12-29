@@ -33,7 +33,7 @@ restrictions-set_reason--mute_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Причина муту: { $reason }
+    Причина: { $reason }
 restrictions-set_reason--ban_message =
     #BAN
     
@@ -44,7 +44,7 @@ restrictions-set_reason--ban_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Причина бану: { $reason }
+    Причина: { $reason }
 restrictions-set_reason--kick_message =
     #KICK
     
@@ -54,7 +54,7 @@ restrictions-set_reason--kick_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Причина вигнання: { $reason }
+    Причина: { $reason }
 restrictions-set_reason--pardon_message =
     #PARDON
     
@@ -64,7 +64,7 @@ restrictions-set_reason--pardon_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Причина помилування: { $reason }
+    Причина: { $reason }
 restrictions-set_reason--ban_sc_message =
     #BAN #SENDER_CHAT
     
@@ -74,7 +74,7 @@ restrictions-set_reason--ban_sc_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Причина бану: { $reason }
+    Причина: { $reason }
 restrictions-set_reason--pardon_sc_message =
     #PARDON #SENDER_CHAT
     
@@ -84,7 +84,7 @@ restrictions-set_reason--pardon_sc_message =
     ADMIN: { $admin_mention }
     EDITED BY: { $edited_by }
     
-    Причина помилування: { $reason }
+    Причина: { $reason }
 restrictions-set_reason--unknown_restriction_type =
     <b>⚠ Помилка:</b>
     
