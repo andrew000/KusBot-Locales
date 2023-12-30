@@ -68,3 +68,22 @@ chat_settings--unknown-timezone-try-again =
     💡 Наприклад:
     <blockquote><code>Europe/Kyiv</code></blockquote>
     <blockquote><code>America/New_York</code></blockquote>
+# chat_settings--set-greetings-text = chat_settings--set-greetings-text
+# chat_settings--greetings-too-long = chat_settings--greetings-too-long
+# chat_settings--greetings-too-long-try-again = chat_settings--greetings-too-long-try-again
+# chat_settings--greetings-saved = chat_settings--greetings-saved
+# chat_settings--set-greetings-texts = chat_settings--set-greetings-texts
+chat_settings--greetings-set-type = chat_settings--greetings-set-type { $greeting_type }
+chat_settings--greetings-set-text-button = chat_settings--greetings-set-text-button
+chat_settings--reset-button = chat_settings--reset-button
+chat_settings--greetings-set-media-button = chat_settings--greetings-set-media-button
+chat_settings--greetings-set-topic-button = chat_settings--greetings-set-topic-button
+chat_settings--reset-all-button = chat_settings--reset-all-button
+chat_settings--set-greetings-window-text = chat_settings--set-greetings-window-text
+# chat_settings--set-greetings-type-window-text = chat_settings--set-greetings-type-window-text
+chat_settings--greetings-set-type-text-button = chat_settings--greetings-set-type-text-button
+chat_settings--greetings-set-type-photo-button = chat_settings--greetings-set-type-photo-button
+chat_settings--greetings-set-type-video-button = chat_settings--greetings-set-type-video-button
+chat_settings--greetings-set-type-gif-button = chat_settings--greetings-set-type-gif-button
+chat_settings--greetings-set-type-sticker-button = chat_settings--greetings-set-type-sticker-button
+chat_settings--greetings-set-type-window-text = chat_settings--greetings-set-type-window-text
