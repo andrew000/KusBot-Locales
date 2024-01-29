@@ -15,3 +15,8 @@ cmds-default--start-text =
     
     📝 Всі команди тут: /help | /commands
     😎 Офіційний чат: @KuskaChat
+cmds-default--chat_id-text = 🆔 Ідентифікатори чату:
+
+    CHAT_ID: <code>{ $chat_id }</code>
+    TOPIC_ID: <code>{ $message_thread_id }</code>
+

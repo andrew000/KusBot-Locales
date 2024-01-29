@@ -15,3 +15,4 @@ cmds-default--start-text =
     
     📝 All commands are here: /help | /commands
     😎 Official chat: @KuskaChat
+cmds-default--chat_id-text = cmds-default--chat_id-text { $chat_id } { $message_thread_id }
