@@ -1,7 +1,7 @@
-resources-rarity--common = resources-rarity--common
-resources-rarity--uncommon = resources-rarity--uncommon
-resources-rarity--rare = resources-rarity--rare
-resources-rarity--epic = resources-rarity--epic
-resources-rarity--legendary = resources-rarity--legendary
-resources-rarity--mythical = resources-rarity--mythical
-resources-rarity--divine = resources-rarity--divine
+resources-rarity--common = ⚪️ Обычный
+resources-rarity--uncommon = 🟢 Необычный
+resources-rarity--rare = 🔵 Редкий
+resources-rarity--epic = 🟣 Эпический
+resources-rarity--legendary = 🟡 Легендарный
+resources-rarity--mythical = 🟠 Мифический
+resources-rarity--divine = 🔴 Богоподобный

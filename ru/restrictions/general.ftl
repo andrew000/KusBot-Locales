@@ -1,9 +1,18 @@
-restrictions-general--show-advanced-info = restrictions-general--show-advanced-info
-# restrictions-general--set-user-or-reply = restrictions-general--set-user-or-reply
-restrictions-general--close-advanced-info = restrictions-general--close-advanced-info
-restrictions-general--closed = restrictions-general--closed
-restrictions-general--not-enough-rights = restrictions-general--not-enough-rights
+restrictions-general--show-advanced-info = 💡 Больше инфо
+restrictions-general--close-advanced-info = ❌ Закрыть
+restrictions-general--closed = ✅ Закрыто
+restrictions-general--no-reason = Без причины 🤷‍♂️
+restrictions-general--forever = Навсегда ♾
+restrictions-general--not-enough-rights =
+    <b>⚠ Ошибка:</b>
+    
+    <i>— У меня нет прав на это.</i>
+    
+    <i>💁‍♂️ Попробуйте предоставить мне права администратора чата.</i>
 restrictions-general--reason-too-long = restrictions-general--reason-too-long { $max_length }
-restrictions-general--no-reason = restrictions-general--no-reason
-restrictions-general--forever = restrictions-general--forever
-restrictions-general--cant-restrict-sender-chat = restrictions-general--cant-restrict-sender-chat
+restrictions-general--cant-restrict-sender-chat =
+    <b>⚠ Ошибка:</b>
+    
+    <i>— Канал может быть только заблокирован.</i>
+    
+    <i>💁‍♂️ Попробуйте использовать команду /ban.</i>

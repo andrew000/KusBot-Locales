@@ -1,6 +1,14 @@
-profile--profile-text = profile--profile-text { $id } { $inventory } { $vip } { $name } { $username }
-profile--profile = profile--profile
-profile--p = profile--p
-profile--balance = profile--balance
-profile--b = profile--b
-# profile--settings-text = profile--settings-text { $language } { $gender }
+profile--profile-text =
+    <b>👤 Профиль</b>
+    { "\u251C" }<b>🆔 ID</b>: <code>{ $id }</code>
+    { "\u251C" }<b>🙋‍♂️ Имя</b>: { $name }
+    { "\u2514" }<b>👤 Юзернейм</b>: @{ $username }
+    
+    <b>✨ Инвентарь</b>
+    { $inventory }
+    
+    <b>👑 VIP</b>: { $vip }
+profile--profile = профиль
+profile--p = п
+profile--balance = баланс
+profile--b = б
