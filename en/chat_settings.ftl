@@ -96,6 +96,7 @@ chat_settings--greeting-set-text-window-text =
     
     ♻️ To reset text to common — press button <blockquote><code>{ chat_settings--reset-button }</code></blockquote>
 chat_settings--set-text-too-long = chat_settings--set-text-too-long
+chat_settings--greeting-set-media-window-text = chat_settings--greeting-set-media-window-text
 chat_settings--set-topic-id-window-text =
     💁‍♂️ Now send any text message in the Topic where the bot should send greetings/farewell to chat members.
     
