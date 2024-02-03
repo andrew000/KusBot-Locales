@@ -211,3 +211,6 @@ chat_settings--farewell-set-type-text = ⚙️ Тип вітання: { $farewel
     [sticker] { chat_settings--set-type-sticker-button }
     *[unknown] 🤷‍♂️
 }
+chat_settings--window-deprecated = ⚠️ Це вікно застаріло.
+
+    Виконайте команду /chat_settings щоб відкрити нове вікно налаштувань.

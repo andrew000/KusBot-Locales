@@ -85,4 +85,4 @@ restrictions-set_reason--pardon_sc_message =
     EDITED BY: { $edited_by }
     
     Причина: { $reason }
-restrictions-set_reason--unknown_restriction_type = restrictions-set_reason--unknown_restriction_type = restrictions-set_reason--unknown_restriction_type
+restrictions-set_reason--unknown_restriction_type = restrictions-set_reason--unknown_restriction_type
