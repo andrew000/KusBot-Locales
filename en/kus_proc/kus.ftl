@@ -38,3 +38,5 @@ kus_proc-kus--member_break_armor =
     { $predator } Destroyed { $victim }'s shield and bit him.
     
     { $victim } Will not be able to send messages for 1 minute.
+kus_proc-kus--admin_has_disarmed_status = kus_proc-kus--admin_has_disarmed_status { $predator } { $victim }
+kus_proc-kus--admin_get_disarmed_status = kus_proc-kus--admin_get_disarmed_status { $predator } { $victim }

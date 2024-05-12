@@ -7,3 +7,5 @@ kus_proc-kus--admin_break_armor = kus_proc-kus--admin_break_armor { $predator } 
 kus_proc-kus--member_break_armor = kus_proc-kus--member_break_armor { $predator } { $victim }
 kus_proc-kus--member_bite_armor = kus_proc-kus--member_bite_armor { $predator } { $victim }
 kus_proc-kus--member_bite_member = kus_proc-kus--member_bite_member { $predator } { $victim }
+kus_proc-kus--admin_has_disarmed_status = kus_proc-kus--admin_has_disarmed_status { $predator } { $victim }
+kus_proc-kus--admin_get_disarmed_status = kus_proc-kus--admin_get_disarmed_status { $predator } { $victim }

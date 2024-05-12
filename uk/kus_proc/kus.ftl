@@ -38,3 +38,5 @@ kus_proc-kus--member_break_armor =
     { $predator } Розбив щит { $victim } і укусив його.
     
     { $victim } Не зможе надсилати повідомлення протягом 1 хвилини.
+kus_proc-kus--admin_has_disarmed_status = kus_proc-kus--admin_has_disarmed_status { $predator }
+kus_proc-kus--admin_get_disarmed_status = kus_proc-kus--admin_get_disarmed_status { $victim } { $predator }
