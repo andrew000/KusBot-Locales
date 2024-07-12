@@ -1,4 +1,4 @@
-restrictions-kick--usage =
+restrictions-kick-usage =
     <b>📚 Documentation [ /kick ]</b>
     
     <b>📝 Description:</b>
@@ -10,14 +10,14 @@ restrictions-kick--usage =
     <b>💡 Example:</b>
     - <code>/kick @username Kick reason</code>
     - <code>/kick id123456789 Kick reason</code>
-restrictions-kick--usage-advanced =
-    { restrictions-kick--usage }
+restrictions-kick-usage-advanced =
+    { restrictions-kick-usage }
     
     <b>⚠ Pay attention:</b>
     ● Member can return to the chat using invite-link;
     ● Command can be used to reply members message.
     ● If reason is not set, it will be set as "No reason";
-restrictions-kick--set-user-or-reply =
+restrictions-kick-set-user-or-reply =
     <b>⚠ Error:</b>
     
     <i>— I can't find member, you want to kick.</i>
@@ -26,21 +26,21 @@ restrictions-kick--set-user-or-reply =
     
     <b>💡 Example:</b>
     - <code>/kick id123456</code>
-restrictions-kick--cant-kick-admin =
+restrictions-cant-kick-admin =
     <b>⚠ Error:</b>
     
     <i>— I can't kick admin.</i>
-restrictions-kick--error =
+restrictions-kick-error =
     <b>⚠ Error:</b>
     
     <i>— I can't kick member.</i>
     
     <i>💁‍♂️ Check my admin rights.</i>
-restrictions-kick--cant-kick-self =
+restrictions-cant-kick-self =
     <b>⚠ Error:</b>
     
     <i>— I can't kick myself. 🤷‍♂️</i>
-restrictions-kick--text =
+restrictions-kick-text =
     #KICK
     
     ID: <code>{ $victim_id }</code>

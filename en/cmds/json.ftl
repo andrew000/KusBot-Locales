@@ -1,1 +1,1 @@
-cmds-json--need-reply = cmds-json--need-reply
+json-reply_needed = json-reply_needed

@@ -1,4 +1,4 @@
-restrictions-mute--usage =
+restrictions-mute-usage =
     <b>📚 Документація [ /mute ]</b>
     
     <b>📝 Опис:</b>
@@ -10,8 +10,8 @@ restrictions-mute--usage =
     <b>💡 Приклад:</b>
     - <code>/mute @username 1d12h Причина заглушення</code>
     - <code>/mute id123456789 1d Причина заглушення</code>
-restrictions-mute--usage-advanced =
-    { restrictions-mute--usage }
+restrictions-mute-usage-advanced =
+    { restrictions-mute-usage }
     
     <b>⚠ Зверніть увагу:</b>
     ● Команду можна використовувати у відповідь на повідомлення порушника.
@@ -22,7 +22,7 @@ restrictions-mute--usage-advanced =
         · h - години
         · m - хвилини
     💡 Приклад: 1d12h - 1 день 12 годин;
-restrictions-mute--set-user-or-reply =
+restrictions-mute-set-user-or-reply =
     <b>⚠ Помилка:</b>
     
     <i>— Я не змогла знайти користувача, якого ви хочете замутити.</i>
@@ -31,21 +31,21 @@ restrictions-mute--set-user-or-reply =
     
     <b>💡 Приклад:</b>
     - <code>/mute id123456</code>
-restrictions-mute--cant-mute-admin =
+restrictions-mute-cant-mute-admin =
     <b>⚠ Помилка:</b>
     
     <i>— Я не можу заглушити адміністратора.</i>
-restrictions-mute--cant-mute-self =
+restrictions-mute-cant-mute-self =
     <b>⚠ Помилка:</b>
     
     <i>— Я не можу заглушити себе. 🤷‍♂️</i>
-restrictions-mute--error =
+restrictions-mute-error =
     <b>⚠ Помилка:</b>
     
     <i>— Я не змогла заглушити користувача.</i>
     
     <i>💁‍♂️ Спробуйте перевірити чи я маю права на це.</i>
-restrictions-mute--text =
+restrictions-mute-text =
     #MUTE
     
     ID: <code>{ $victim_id }</code>

@@ -1,4 +1,4 @@
-restrictions-pardon--usage =
+restrictions-pardon-usage =
     <b>📚 Documentation [/pardon ]</b>
     
     <b>📝 Description:</b>
@@ -10,13 +10,13 @@ restrictions-pardon--usage =
     <b>💡 Example:</b>
     - <code>/pardon @username Pardon reason</code>
     - <code>/pardon id123456789 Pardon reason</code>
-restrictions-pardon--usage-advanced =
-    { restrictions-pardon--usage }
+restrictions-pardon-usage-advanced =
+    { restrictions-pardon-usage }
     
     <b>⚠ Pay attention:</b>
     ● Command can be used in response to a members message.
     ● If the reason is not set, it will be set to "No reason".
-restrictions-pardon--set-user-or-reply =
+restrictions-pardon-set-user-or-reply =
     <b>⚠ Error:</b>
     
     <i>— I can't find member, you want to pardon.</i>
@@ -25,15 +25,15 @@ restrictions-pardon--set-user-or-reply =
     
     <b>💡 Example:</b>
     - <code>/pardon id123456</code>
-restrictions-pardon--cant-pardon-admin =
+restrictions-cant-pardon-admin =
     <b>⚠ Error:</b>
     
     <i>— I can't pardon admin.</i>
-restrictions-pardon--cant-pardon-self =
+restrictions-cant-pardon-self =
     <b>⚠ Error:</b>
     
     <i>— I can't pardon myself. 🤷‍♂️</i>
-restrictions-pardon--text =
+restrictions-pardon-text =
     #PARDON
     
     ID: <code>{ $victim_id }</code>
@@ -42,7 +42,7 @@ restrictions-pardon--text =
     ADMIN: { $admin_mention }
     
     Reason: { $reason }
-restrictions-pardon--sender-chat-text =
+restrictions-pardon-sender-chat-text =
     #PARDON #SENDER_CHAT
     
     ID: <code>{ $victim_id }</code>
@@ -51,7 +51,7 @@ restrictions-pardon--sender-chat-text =
     ADMIN: { $admin_mention }
     
     Reason: { $reason }
-restrictions-pardon--error =
+restrictions-pardon-error =
     <b>⚠ Error:</b>
     
     <i>— I can't pardon member.</i>

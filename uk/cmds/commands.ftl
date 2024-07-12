@@ -1,6 +1,6 @@
-cmds-commands--commands = команди
-cmds-commands--choose_commands_category = 📚 Оберіть категорію команд
-cmds-commands--main-list =
+commands = команди
+choose-commands-category = 📚 Оберіть категорію команд
+commands-main-list =
     📜 Основні команди:
     
     /start - Привітання
@@ -11,7 +11,7 @@ cmds-commands--main-list =
     /donate - Підтримати проєкт Кусь Бота
     /pay - Передати валюту іншому гравцю
     /trade - Обмінятися валютою з іншим гравцем
-cmds-commands--admin-list =
+commands_admin_list =
     👮‍♂️ Адмін команди:
     
     /ban - Заблокувати користувача
@@ -28,16 +28,21 @@ cmds-commands--admin-list =
     /disable - Вимкнути налаштування
     /setlang - Встановити мову бота
     /setchatlang - Встановити мову чату
-cmds-commands--vip-list =
+commands-vip-list =
     👑 VIP команди:
     
     /buy - Купити ₭usCoin 🪙
     /shop - Магазин 🛒
     /custom - Кастомізація 🎨
-cmds-commands--other-list =
+commands-other-list =
     🔮 Інші команди:
     
     /stats - Статистика гравця
     /botstats - Статистика бота
     /chatstats - Статистика чату
     /yuy - Юю-Юю, секретна команда 🤫
+
+main-command-list-button = 📜 Основні
+admin-command-list-button = 👮‍♂️ Адмін
+vip-command-list-button = 👑 VIP
+other-command-list-button = 🔮 Інші

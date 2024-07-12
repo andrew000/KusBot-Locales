@@ -1,4 +1,7 @@
-profile--profile-text =
+profile-inventory-button = 📦 Інвентар
+profile-settings-button = ⚙️ Налаштування
+
+profile-profile-text =
     <b>👤 Профіль</b>
     {"\u251C"}<b>🆔 ID</b>: <code>{$id}</code>
     {"\u251C"}<b>🙋‍♂️ Ім'я</b>: {$name}
@@ -8,7 +11,7 @@ profile--profile-text =
     {$inventory}
     
     <b>👑 VIP</b>: {$vip}
-profile--profile = профіль
-profile--p = п
-profile--balance = баланс
-profile--b = б
+profile = профіль
+p = п
+balance = баланс
+b = б

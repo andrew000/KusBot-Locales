@@ -1,27 +1,27 @@
-settings--settings = settings
-settings--gender-male = 👨 Male
-settings--gender-female = 👩 Female
-settings--language = language
-settings--lang = lang
-settings--choose_language = 🌐 Select language
-settings--settings-text =
+settings = settings
+settings-gender-male = 👨 Male
+settings-gender-female = 👩 Female
+settings-language = language
+settings-lang = lang
+settings-choose-language = 🌐 Select language
+settings-text =
     ⚙️ Settings
-    
+
     🌐 Language: {$language }
     ♂️ Gender: {$gender ->
-        [m] { settings--gender-male }
-        [f] { settings--gender-female }
+        [m] { settings-gender-male }
+        [f] { settings-gender-female }
        *[other] Unknown
     }
-settings--gender-button = ♂️ Choose gender
-settings--gender-text = ♂️ Select your gender
-settings--gender-selected-text =
+settings-gender-button = ♂️ Choose gender
+settings-gender-text = ♂️ Select your gender
+settings-gender-selected-text =
     ♂️ Gender selected: { $gender ->
-        [m] { settings--gender-male }
-        [f] { settings--gender-female }
+        [m] { settings-gender-male }
+        [f] { settings-gender-female }
        *[other] Unknown
     }
-settings--language-selected-text =
+settings-language-selected-text =
     Selected language: { $language ->
         [en] 🇺🇸 English
         [uk] 🇺🇦 Українська
@@ -31,7 +31,7 @@ settings--language-selected-text =
         [ru] 🇷🇺 Российский
        *[other] Невідомо
     }
-settings--language-code =
+settings-language-code =
     { $language_code ->
         [en] 🇺🇸 English
         [uk] 🇺🇦 Українська
@@ -41,4 +41,5 @@ settings--language-code =
         [ru] 🇷🇺 Российский
        *[other] Невідомо
     }
-settings--closed = ✅ Settings closed
+settings-close-button = ❌ Close
+settings-closed = ✅ Settings closed

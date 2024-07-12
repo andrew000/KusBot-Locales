@@ -1,5 +1,5 @@
-kus_proc-kukus--victim-restricted = kus_proc-kukus--victim-restricted { $victim }
-kus_proc-kukus--predator-kukus-quantity-zero = kus_proc-kukus--predator-kukus-quantity-zero
-kus_proc-kukus--predator_admin-bite-admin = kus_proc-kukus--predator_admin-bite-admin { $predator } { $victim }
-kus_proc-kukus--predator_member-bite-admin = kus_proc-kukus--predator_member-bite-admin { $predator } { $victim }
-kus_proc-kukus--predator_member-bite = kus_proc-kukus--predator_member-bite { $predator } { $victim }
+victim_restricted_by_kukus = victim_restricted_by_kukus { $victim }
+predator_zero_kukus_quantity = predator_zero_kukus_quantity
+admin_predator-bite-admin = admin_predator-bite-admin { $predator } { $victim }
+member_predator-bite-admin = member_predator-bite-admin { $predator } { $victim }
+member_predator-bite-member = member_predator-bite-member { $predator } { $victim }

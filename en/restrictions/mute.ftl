@@ -1,4 +1,4 @@
-restrictions-mute--usage =
+restrictions-mute-usage =
     <b>📚 Documentation [ /mute ]</b>
     
     <b>📝 Description:</b>
@@ -10,8 +10,8 @@ restrictions-mute--usage =
     <b>💡 Example:</b>
     - <code>/mute @username 1d12h Mute reason</code>
     - <code>/mute id123456789 1d Mute reason</code>
-restrictions-mute--usage-advanced =
-    { restrictions-mute--usage }
+restrictions-mute-usage-advanced =
+    { restrictions-mute-usage }
     
     <b>⚠ Pay attention:</b>
     ● Command can be used in response to a members message.
@@ -22,7 +22,7 @@ restrictions-mute--usage-advanced =
         · h - hours
         · m - minutes
     💡 Example: 1d12h - 1 day 12 hour;
-restrictions-mute--set-user-or-reply =
+restrictions-mute-set-user-or-reply =
     <b>⚠ Помилка:</b>
     
     <i>— Я не змогла знайти користувача, якого ви хочете замутити.</i>
@@ -31,21 +31,21 @@ restrictions-mute--set-user-or-reply =
     
     <b>💡 Приклад:</b>
     - <code>/mute id123456</code>
-restrictions-mute--cant-mute-admin =
+restrictions-cant-mute-admin =
     <b>⚠ Error:</b>
     
     <i>— I can't mute admin.</i>
-restrictions-mute--cant-mute-self =
+restrictions-cant-mute-self =
     <b>⚠ Error:</b>
     
     <i>— I can't mute myself. 🤷‍♂️</i>
-restrictions-mute--error =
+restrictions-mute-error =
     <b>⚠ Error:</b>
     
     <i>— I can't mute member.</i>
     
     <i>💁‍♂️ Check my admin rights.</i>
-restrictions-mute--text =
+restrictions-mute-text =
     #MUTE
     
     ID: <code>{ $victim_id }</code>

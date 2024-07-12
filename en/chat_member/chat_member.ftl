@@ -1,4 +1,4 @@
-chat_member-chat_member--farewell =
+chat_member-farewell =
     😿 Purr-furr, are you coming out?
     
     We will always remember you as the sweetest and most affectionate member of our chat.
@@ -6,7 +6,7 @@ chat_member-chat_member--farewell =
     We hope you'll be happy in your new adventures! 🌟
     
     Bye, {$mention}!
-chat_member-chat_member--any_to_member-greetings_message =
+chat_member-greeting =
     👋 Hello, {$mention}!
     
     🐾 I am <b>Kuska</b>, and I'm here to, introduce you to all the members of our chat.

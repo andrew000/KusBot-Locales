@@ -1,4 +1,4 @@
-restrictions-ban--usage =
+restrictions-ban-usage =
     <b>📚 Documentation [/ban ]</b>
     
     <b>📝 Description:</b>
@@ -10,8 +10,8 @@ restrictions-ban--usage =
     <b>💡 Example:</b>
     - <code>/ban @username 1d12h restriction reason</code>
     - <code>/ban id123456789 1d restriction reason</code>
-restrictions-ban--usage-advanced =
-    { restrictions-ban--usage }
+restrictions-ban-usage-advanced =
+    { restrictions-ban-usage }
     
     <b>⚠ Pay attention:</b>
     ● Command can be used in response to a members message.
@@ -22,7 +22,7 @@ restrictions-ban--usage-advanced =
         · h - hours
         · m - minutes
     💡 Example: 1d12h - 1 day 12 hours;
-restrictions-ban--set-user-or-reply =
+restrictions-ban-set-user-or-reply =
     <b>⚠ Error:</b>
     
     <i>— I can't find member, you want to ban.</i>
@@ -31,21 +31,21 @@ restrictions-ban--set-user-or-reply =
     
     <b>💡 Example:</b>
     - <code>/ban id123456</code>
-restrictions-ban--cant-ban-admin =
+restrictions-cant-ban-admin =
     <b>⚠ Error:</b>
     
     <i>— I can't ban admin.</i>
-restrictions-ban--cant-ban-self =
+restrictions-cant-ban-self =
     <b>⚠ Error:</b>
     
     <i>— I can't ban myself. 🤷‍♂️</i>
-restrictions-ban--error =
+restrictions-ban-error =
     <b>⚠ Error:</b>
     
     <i>— I can't ban member.</i>
     
     <i>💁‍♂️ Check my admin rights.</i>
-restrictions-ban--text =
+restrictions-ban-text =
     #BAN
     
     ID: <code>{ $victim_id }</code>
@@ -55,7 +55,7 @@ restrictions-ban--text =
     ADMIN: { $admin_mention }
     
     Reason: { $reason }
-restrictions-ban--sender-chat-text =
+restrictions-ban-sender-chat-text =
     #BAN #SENDER_CHAT
     
     ID: <code>{ $victim_id }</code>
