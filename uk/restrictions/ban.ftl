@@ -31,13 +31,13 @@ restrictions-ban-set-user-or-reply =
     
     <b>💡 Приклад:</b>
     - <code>/ban id123456</code>
-restrictions-ban-cant-ban-admin =
+restrictions-cant-ban-admin =
     <b>⚠ Помилка:</b>
-    
+
     <i>— Я не можу заблокувати адміністратора.</i>
-restrictions-ban-cant-ban-self =
+restrictions-cant-ban-self =
     <b>⚠ Помилка:</b>
-    
+
     <i>— Я не можу заблокувати себе. 🤷‍♂️</i>
 restrictions-ban-error =
     <b>⚠ Помилка:</b>

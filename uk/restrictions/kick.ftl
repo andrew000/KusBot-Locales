@@ -26,9 +26,9 @@ restrictions-kick-set-user-or-reply =
     
     <b>💡 Приклад:</b>
     - <code>/kick id123456</code>
-restrictions-kick-cant-kick-admin =
+restrictions-cant-kick-admin =
     <b>⚠ Помилка:</b>
-    
+
     <i>— Я не можу вигнати адміністратора.</i>
 restrictions-kick-error =
     <b>⚠ Помилка:</b>
@@ -36,9 +36,9 @@ restrictions-kick-error =
     <i>— Я не змогла вигнати користувача.</i>
     
     <i>💁‍♂️ Спробуйте перевірити чи я маю права на це.</i>
-restrictions-kick-cant-kick-self =
+restrictions-cant-kick-self =
     <b>⚠ Помилка:</b>
-    
+
     <i>— Я не можу вигнати себе. 🤷‍♂️</i>
 restrictions-kick-text =
     #KICK

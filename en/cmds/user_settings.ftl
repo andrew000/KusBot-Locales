@@ -6,9 +6,9 @@ settings-lang = lang
 settings-choose-language = 🌐 Select language
 settings-text =
     ⚙️ Settings
-
-    🌐 Language: {$language }
-    ♂️ Gender: {$gender ->
+    
+    🌐 Language: { $language }
+    ♂️ Gender: { $gender ->
         [m] { settings-gender-male }
         [f] { settings-gender-female }
        *[other] Unknown

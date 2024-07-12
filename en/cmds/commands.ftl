@@ -1,8 +1,6 @@
 commands = commands
 choose-commands-category = 📚 Choose commands category
-
 main-command-list-button = 📜 General
-
 commands-main-list =
     📜 General commands:
     
@@ -14,10 +12,8 @@ commands-main-list =
     /donate - Support the KusBot project
     /pay - Transfer currency to another player
     /trade - Exchange currency with another player
-
 admin-command-list-button = 👮‍♂️ Admin
-
-commands-other-list =
+commands-admin-list =
     👮‍♂️ Administrator commands:
     
     /ban - Block user
@@ -34,18 +30,14 @@ commands-other-list =
     /disable - Disable settings
     /setlang - Set bot language
     /setchatlang - Set chat language
-
 vip-command-list-button = 👑 VIP
-
 commands-vip-list =
     👑 VIP команди:
     
     /buy - Buy ₭usCoin 🪙
     /shop - Shop 🛒
     /custom - Customization 🎨
-
 other-command-list-button = 🔮 Other
-
 commands-other-list =
     🔮 Other commands:
     

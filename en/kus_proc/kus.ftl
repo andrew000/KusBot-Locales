@@ -25,11 +25,14 @@ admin-kus-protected-victim =
     but { $victim } is under protection of guardian cats 🐈.
     
     Guardian cats defended { $victim } from { $predator }.
-kus_proc-kus--admin_break_armor =
-    { $predator } Destroyed { $victim }'s shield and bit him.
-    
-    { $victim } Will not be able to send messages for 1 minute.
-kus_proc-kus--member_break_armor =
-    { $predator } Destroyed { $victim }'s shield and bit him.
-    
-    { $victim } Will not be able to send messages for 1 minute.
+predator-has-disarm-status = predator-has-disarm-status{ $predator }
+victim-not-in-game = victim-not-in-game{ $victim }
+admin-cant-be-kused = admin-cant-be-kused
+admin-self-kus = admin-self-kus{ $predator }
+member-self-kus = member-self-kus{ $predator }
+admin-break-armor-and-kus-admin = admin-break-armor-and-kus-admin{ $predator }{ $victim }
+admin-break-armor-and-kus-member = admin-break-armor-and-kus-member{ $predator }{ $victim }
+admin-dont-break-armor-and-get-disarm = admin-dont-break-armor-and-get-disarm{ $predator }{ $victim }
+admin-kus-member = admin-kus-member{ $predator }{ $victim }
+member-break-armor-and-kus-admin = member-break-armor-and-kus-admin{ $predator }{ $victim }
+member-break-armor-and-kus-member = member-break-armor-and-kus-member{ $predator }{ $victim }

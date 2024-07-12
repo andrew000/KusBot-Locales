@@ -14,7 +14,7 @@ member-dont-break-armor-and-get-restrict =
     { $victim } Відбив укус { $predator } і оглушив його на 1 хвилину.
 admin-kus-admin =
     Адміністратор { $predator } укусив { $victim },
-
+    
     Адміністратор { $victim } не зможе кусати протягом 1 хвилини.
 member-kus-admin =
     { $predator } Намагався укусити адміністратора { $victim },
@@ -28,12 +28,14 @@ admin-kus-protected-victim =
     проте { $victim } знаходиться під захистом вартових котиків 🐈.
     
     Вартові котики захистили { $victim } від { $predator }.
-kus_proc-kus--admin_break_armor =
-    { $predator } Розбив щит { $victim } і укусив його.
-    
-    { $victim } Не зможе надсилати повідомлення протягом 1 хвилини.
-kus_proc-kus--member_break_armor =
-    { $predator } Розбив щит { $victim } і укусив його.
-    
-    { $victim } Не зможе надсилати повідомлення протягом 1 хвилини.
-
+predator-has-disarm-status = predator-has-disarm-status{ $predator }
+victim-not-in-game = victim-not-in-game{ $victim }
+admin-cant-be-kused = admin-cant-be-kused
+admin-self-kus = admin-self-kus{ $predator }
+member-self-kus = member-self-kus{ $predator }
+admin-break-armor-and-kus-admin = admin-break-armor-and-kus-admin{ $predator }{ $victim }
+admin-break-armor-and-kus-member = admin-break-armor-and-kus-member{ $predator }{ $victim }
+admin-dont-break-armor-and-get-disarm = admin-dont-break-armor-and-get-disarm{ $predator }{ $victim }
+admin-kus-member = admin-kus-member{ $predator }{ $victim }
+member-break-armor-and-kus-admin = member-break-armor-and-kus-admin{ $predator }{ $victim }
+member-break-armor-and-kus-member = member-break-armor-and-kus-member{ $predator }{ $victim }
