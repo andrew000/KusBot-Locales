@@ -33,25 +33,25 @@ restrictions-mute-set-user-or-reply =
     - <code>/mute id123456</code>
 restrictions-cant-mute-admin =
     <b>⚠ Помилка:</b>
-
+    
     <i>— Я не можу заглушити адміністратора.</i>
 restrictions-cant-mute-self =
     <b>⚠ Помилка:</b>
-
+    
     <i>— Я не можу заглушити себе. 🤷‍♂️</i>
 restrictions-mute-error =
     <b>⚠ Помилка:</b>
-
+    
     <i>— Я не змогла заглушити користувача.</i>
-
+    
     <i>💁‍♂️ Спробуйте перевірити чи я маю права на це.</i>
 restrictions-mute-text =
     #MUTE
-
+    
     ID: <code>{ $victim_id }</code>
     NAME: { $victim_mention }
     UNTIL: { $until_date }
-
+    
     ADMIN: { $admin_mention }
-
+    
     Причина: { $reason }

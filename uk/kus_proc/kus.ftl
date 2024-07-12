@@ -18,7 +18,7 @@ admin-kus-admin =
     Адміністратор обеззброєний на 1 хвилину.
 member-kus-admin =
     { $predator } укусив адміністратора { $victim }.
-
+    
     { $victim } обеззброєний на 1 хвилину.
 admin-kus-protected-victim =
     { $predator } Намагався укусити { $victim },
@@ -27,46 +27,46 @@ admin-kus-protected-victim =
     Вартові котики захистили { $victim } від { $predator }.
 predator-has-disarm-status =
     { $predator } має статус обеззброєння.
-
+    
     Він не може кусатись протягом 1 хвилини.
 victim-not-in-game =
     { $victim } не знаходиться в грі.
-
+    
     Імовірно, він покинув чат або має невідповідні права.
 admin-cant-be-kused =
     Адміністратори не можуть бути укушені.
-
+    
     <span class="tg-spoiler">Укуси адміністраторів можна увімкнути у налаштуваннях чату: /chat_settings</span>
 admin-self-kus =
     Адміністратор { $predator } укусив себе.
-
+    
     Адміністратор обеззброєний на 1 хвилину.
 member-self-kus =
     { $predator } укусив себе.
-
+    
     Він не може кусатись протягом 1 хвилини.
 admin-break-armor-and-kus-admin =
     Адміністратор { $predator } зламав щит і укусив адміністратора { $victim },
-
+    
     { $victim } обеззброєний на 1 хвилину.
 admin-break-armor-and-kus-member =
     Адміністратор { $predator } зламав щит і укусив { $victim },
-
+    
     { $victim } не зможе кусатись протягом 1 хвилини.
 admin-dont-break-armor-and-get-disarm =
     Адміністратор { $predator } намагався укусити { $victim },
     проте { $victim } витягнув щит і захистився.
-
+    
     { $victim } відбив укус і обеззброїв адміністратора на 1 хвилину.
 admin-kus-member =
     Адміністратор { $predator } укусив { $victim }.
-
+    
     { $victim } не зможе надсилати повідомлення протягом 1 хвилини.
 member-break-armor-and-kus-admin =
     { $predator } зламав щит і укусив адміністратора { $victim },
-
+    
     { $victim } обеззброєний на 1 хвилину.
 member-break-armor-and-kus-member =
     { $predator } зламав щит і укусив { $victim },
-
+    
     { $victim } не зможе кусатись протягом 1 хвилини.

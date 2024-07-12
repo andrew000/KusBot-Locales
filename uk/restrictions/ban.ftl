@@ -33,11 +33,11 @@ restrictions-ban-set-user-or-reply =
     - <code>/ban id123456</code>
 restrictions-cant-ban-admin =
     <b>⚠ Помилка:</b>
-
+    
     <i>— Я не можу заблокувати адміністратора.</i>
 restrictions-cant-ban-self =
     <b>⚠ Помилка:</b>
-
+    
     <i>— Я не можу заблокувати себе. 🤷‍♂️</i>
 restrictions-ban-error =
     <b>⚠ Помилка:</b>

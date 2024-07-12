@@ -27,11 +27,11 @@ restrictions-pardon-set-user-or-reply =
     - <code>/pardon id123456</code>
 restrictions-cant-pardon-admin =
     <b>⚠ Помилка:</b>
-
+    
     <i>— Я не можу розблокувати адміністратора.</i>
 restrictions-cant-pardon-self =
     <b>⚠ Помилка:</b>
-
+    
     <i>— Я не можу розблокувати себе. 🤷‍♂️</i>
 restrictions-pardon-text =
     #PARDON

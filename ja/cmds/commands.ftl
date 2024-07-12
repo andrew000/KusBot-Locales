@@ -8,6 +8,3 @@ admin-command-list-button = admin-command-list-button
 vip-command-list-button = vip-command-list-button
 other-command-list-button = other-command-list-button
 commands-admin-list = commands-admin-list
-
-# commands_admin_list = commands_admin_list
-
