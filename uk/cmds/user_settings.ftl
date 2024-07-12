@@ -17,8 +17,8 @@ settings-gender-button = ♂️ Обрати стать
 settings-gender-text = ♂️ Оберіть свою стать
 settings-gender-selected-text =
     ♂️ Обрано стать: { $gender ->
-        [m] { settings--gender-male }
-        [f] { settings--gender-female }
+        [m] { settings-gender-male }
+        [f] { settings-gender-female }
        *[other] Невідомо
     }
 settings-language-selected-text =
