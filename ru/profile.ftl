@@ -1,4 +1,4 @@
-profile-text = profile-text{ $id }{ $name }{ $username }{ $inventory }{ $vip }
+profile-text = profile-text{ $id }{ $name }{ $username }{ $phantom_mode }{ $inventory }{ $vip }
 profile = profile
 p = p
 balance = balance

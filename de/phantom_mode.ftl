@@ -1,0 +1,11 @@
+phantom-mode-button-yes = phantom-mode-button-yes
+phantom-mode-button-no = phantom-mode-button-no
+phantom-mode-already-enabled = phantom-mode-already-enabled{ $minutes_left }{ $seconds_left }
+phantom-mode-cooldown = phantom-mode-cooldown{ $minutes }{ $seconds }
+phantom-mode-refused = phantom-mode-refused
+phantom-mode-ask = phantom-mode-ask{ $mention }{ $gender }
+phantom-mode-ask-timeout = phantom-mode-ask-timeout
+phantom-mode-ask-deprecated = phantom-mode-ask-deprecated
+phantom-mode-enabled-success = phantom-mode-enabled-success
+phantom-mode-set-canceled = phantom-mode-set-canceled
+phantom-mode-private-not-allowed = phantom-mode-private-not-allowed

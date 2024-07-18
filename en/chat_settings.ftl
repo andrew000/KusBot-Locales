@@ -93,7 +93,6 @@ chat_settings-greeting-set-text-window-text =
     💁‍♂️ To mention a user in the text - set in place of the mention: <blockquote><code>{ "{" }mention{ "}" }</code></blockquote>
     
     ♻️ To reset text to common — press button <blockquote><code>{ chat_settings-reset-button }</code></blockquote>
-chat_settings-set-text-too-long = chat_settings--set-text-too-long
 chat_settings-greeting-set-media-window-text = chat_settings-greeting-set-media-window-text
 chat_settings-set-topic-id-window-text =
     💁‍♂️ Now send any text message in the Topic where the bot should send greetings/farewell to chat members.
@@ -105,17 +104,20 @@ chat_settings-set-topic-id-success =
     
     TOPIC_ID: <blockquote><code>{ $topic_id }</code></blockquote>
 chat_settings-set-topic-id-chat-is-not-a-topic-type = chat_settings--set-topic-id-chat-is-not-a-topic-type
-chat_settings-set-topic-id-topic-closed = chat_settings--set-topic-id-topic-closed
 chat_settings-admin-settings-window-text =
     { chat_settings-admin-settings }
     
     💁‍♂️ Here you can customize admin chat settings.
 chat_settings-reports-policy-text =
-    <b>{ chat_settings-reports-policy }</b>
+    <b>{ chat_settings-reports-policy }</b> { $is_set ->
+        [0] ❌ Disabled
+        [1] ✅ Enabled
+       *[2] 🤷‍♂️
+    }
     💁‍♂️ Here you can customize report policy.
     
     🆔 To set up chat for reports — press button: <blockquote><code>{ chat_settings-set-reports-special-chat }</code></blockquote>
-chat_settings-reports-special-chat-text = chat_settings--reports-special-chat-text
+chat_settings-reports-special-chat-text = chat_settings-reports-special-chat-text{ $is_set }{ $chat_id }
 chat_settings-set-reports-special-chat = 🔧 Set up chat for reports
 chat_settings-reports-special-chat-choose-chat = 🔧 Choose chat
 chat_settings-no-pending-reports-special-chat-title = ⚠️ Chat for reports is not set up.
@@ -124,7 +126,6 @@ chat_settings-no-pending-reports-special-chat-text =
     
     💁‍♂️ You are probably trying to set up a chat without enabling the settings [ /chat_settings ].
 chat_settings-set-reports-special-chat-inline-query-title = 📕 Set up chat for reports
-chat_settings-set-reports-special-chat-success-text = chat_settings-set-reports-special-chat-success-text
 chat_settings-set-reports-special-chat-default-text =
     💁‍♂️ This command allows you to set up a chat for saving reports.
     
@@ -156,3 +157,6 @@ chat_settings-farewell-set-type-text =
         [sticker] { chat_settings-set-type-sticker-button }
        *[unknown] 🤷‍♂️
     }
+chat_settings-set-reports-special-chat-success-text = chat_settings-set-reports-special-chat-success-text{ $chat_id }
+chat_settings-set-text-too-long = chat_settings-set-text-too-long{ $max_length }
+chat_settings-set-topic-id-topic-closed = chat_settings-set-topic-id-topic-closed{ $mention }
