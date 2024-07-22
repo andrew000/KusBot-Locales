@@ -1,11 +1,24 @@
-phantom-mode-button-yes = phantom-mode-button-yes
-phantom-mode-button-no = phantom-mode-button-no
-phantom-mode-already-enabled = phantom-mode-already-enabled{ $minutes_left }{ $seconds_left }
-phantom-mode-cooldown = phantom-mode-cooldown{ $minutes }{ $seconds }
-phantom-mode-refused = phantom-mode-refused
-phantom-mode-ask = phantom-mode-ask{ $mention }{ $gender }
-phantom-mode-ask-timeout = phantom-mode-ask-timeout
-phantom-mode-ask-deprecated = phantom-mode-ask-deprecated
-phantom-mode-enabled-success = phantom-mode-enabled-success
-phantom-mode-set-canceled = phantom-mode-set-canceled
-phantom-mode-private-not-allowed = phantom-mode-private-not-allowed
+phantom-mode-button-yes = ✅ Yes
+phantom-mode-button-no = ❌ No
+phantom-mode-already-enabled =
+    ✅ Phantom node enabled
+    
+    ⏳ Time left: { $minutes_left }min { $seconds_left }s
+phantom-mode-cooldown =
+    ⏳ Phantom mode reloading.
+    
+    💁‍♂️ Try again in: { $minutes }min { $seconds }s
+phantom-mode-refused = ⚠️ Failed to enable phantom mode
+phantom-mode-ask =
+    { $mention }, you { $gender ->
+        [m] sure
+        [f] sure
+       *[other] sure
+    } want to enable phantom mode?
+    
+    ⚠️ You can't enable him until it expires.
+phantom-mode-ask-timeout = ⚠️⏳ Time's up. Denied to enable phantom mode.
+phantom-mode-ask-deprecated = ⚠️⏳ Time's up. Request is outdated.
+phantom-mode-enabled-success = ✅ Phantom mode enabled.
+phantom-mode-set-canceled = ➡️ Phantom mode request denied.
+phantom-mode-private-not-allowed = ⚠️ Phantom mode is prohibited in private chat.
