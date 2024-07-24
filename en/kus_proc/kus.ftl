@@ -30,9 +30,17 @@ member-dont-break-armor-and-get-restrict =
        *[other] it
     } for 1 minute.
 member-kus-admin =
-    { $predator } bit administrator { $victim },
+    { $predator } { $predator_gender ->
+        [m] bit
+        [f] bit
+       *[other] bit
+    } admin { $victim }.
     
-    { $victim } is disarmed for 1 minute.
+    { $victim } { $victim_gender ->
+        [m] disarmed
+        [f] disarmed
+       *[other] disarmed
+    } for a minute.
 admin-kus-protected-victim =
     { $predator } { $predator_gender ->
         [m] tried to
@@ -179,3 +187,11 @@ member-break-armor-and-kus-admin =
         [f] disarmed
        *[other] disarmed
     } for a minute.
+predator_zero_kukus_quantity = predator_zero_kukus_quantity
+admin-self-kukus = admin-self-kukus{ $predator }{ $predator_gender }
+member-self-kukus = member-self-kukus{ $predator }{ $predator_gender }
+admin-kukus-protected-victim = admin-kukus-protected-victim{ $predator }{ $predator_gender }{ $victim }
+admin-kukus-admin = admin-kukus-admin{ $predator }{ $predator_gender }{ $victim }{ $victim_gender }
+admin-kukus-member = admin-kukus-member{ $predator }{ $predator_gender }{ $victim }
+member-kukus-admin = member-kukus-admin{ $predator }{ $predator_gender }{ $victim }{ $victim_gender }
+member-kukus-member = member-kukus-member{ $predator }{ $predator_gender }{ $victim }
