@@ -6,3 +6,4 @@ reports-disabled-in-chat = reports-disabled-in-chat
 special-report-message-text = special-report-message-text { $chat_id } { $reason } { $chat_title } { $reporter_mention } { $violation_message } { $reporter_id }
 failed-to-copy-report-message-to-special-chat = failed-to-copy-report-message-to-special-chat
 report-message-text = report-message-text { $reporter_id } { $reason } { $violation_message } { $reporter_mention }
+special-chat-not-set = special-chat-not-set
