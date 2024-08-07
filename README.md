@@ -2,7 +2,7 @@
 
 ***
 
-This repository contains the localization files for KusBot project. If you want to help us translate KusBot into your
+This repository contains the localization files for [KusBot project](https://t.me/KusBot). If you want to help us translate KusBot into your
 language, please read the [CONTRIBUTING.md](https://github.com/andrew000/KusBot-Locales/blob/master/CONTRIBUTING.md)
 file.
 
@@ -10,6 +10,8 @@ KusBot is a Telegram bot that helps you to manage your groups.
 Main feature is RPG-style game system. You can create your own character and play in our universe.
 
 Also, KusBot provides moderation tools, such as ban, kick, warn, etc.
+
+Project: **[KusBot](https://t.me/KusBot)**
 
 ## How to contribute
 
