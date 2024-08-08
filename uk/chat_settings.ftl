@@ -6,10 +6,8 @@ chat_settings-language =
     🌐 Мова | Language: { $language_code ->
         [uk] 🇺🇦
         [en] 🇺🇸
-        [pl] 🇵🇱
-        [de] 🇩🇪
-        [ja] 🇯🇵
         [ru] 🇷🇺
+        [yo] 🇳🇬
        *[unknown] 🤷‍♂️
     }
 chat_settings-timezone = ⏰ Часовий пояс: { $timezone }
@@ -44,10 +42,8 @@ chat_settings-language-code =
     { $language_code ->
         [en] 🇺🇸 English
         [uk] 🇺🇦 Українська
-        [pl] 🇵🇱 Polski
-        [de] 🇩🇪 Deutsch
-        [ja] 🇯🇵 日本語
         [ru] 🇷🇺 Российский
+        [yo] 🇳🇬 Yorùbá
        *[other] Невідомо
     }
 chat_settings-set-language-window-text = 🌐 Виберіть мову чату:

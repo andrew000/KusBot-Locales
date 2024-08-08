@@ -25,20 +25,16 @@ settings-language-selected-text =
     Обрано мову: { $language ->
         [en] 🇺🇸 English
         [uk] 🇺🇦 Українська
-        [pl] 🇵🇱 Polski
-        [de] 🇩🇪 Deutsch
-        [ja] 🇯🇵 日本語
         [ru] 🇷🇺 Российский
+        [yo] 🇳🇬 Yoruba
        *[other] Невідомо
     }
 settings-language-code =
     { $language_code ->
         [en] 🇺🇸 English
         [uk] 🇺🇦 Українська
-        [pl] 🇵🇱 Polski
-        [de] 🇩🇪 Deutsch
-        [ja] 🇯🇵 日本語
         [ru] 🇷🇺 Российский
+        [yo] 🇳🇬 Yoruba
        *[other] Невідомо
     }
 settings-close-button = ❌ Закрити
