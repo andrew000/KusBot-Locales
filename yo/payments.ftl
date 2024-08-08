@@ -1,0 +1,12 @@
+pay-accept_button = pay-accept_button
+pay-decline_button = pay-decline_button
+pay-deprecated = pay-deprecated
+pay-not_enough_item = pay-not_enough_item{ $item_emoji }{ $item_name }{ $item_amount }
+pay-transfer_accepted = pay-transfer_accepted{ $receiver_mention }{ $receiver_gender }{ $items }
+pay-transfer_declined = pay-transfer_declined
+pay-specify_items = pay-specify_items
+pay-waiting_for_answer = pay-waiting_for_answer{ $receiver_mention }{ $items }
+pay-reply_required = pay-reply_required
+pay-sender_chat-not_supported = pay-sender_chat-not_supported
+pay-bot-not_supported = pay-bot-not_supported
+pay-cant_pay_self = pay-cant_pay_self

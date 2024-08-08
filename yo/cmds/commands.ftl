@@ -1,5 +1,5 @@
-commands = commands
 choose-commands-category = choose-commands-category
+commands = commands
 commands-main-list = commands-main-list
 commands-admin-list = commands-admin-list
 commands-vip-list = commands-vip-list
