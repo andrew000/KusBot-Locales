@@ -6,3 +6,5 @@ item-kukus-name = Кукусь
 item-kukus-description = Кукусь — сильніша версія звичайного Кусь. Дає змогу укусити жертву і змусити її мовчати понад 5 хвилин!
 item-kuscoin-name = КусьКоїн
 item-kuscoin-description = КусьКоїн — валюта, яку можна витратити на покупку різних предметів.
+item-vip-name = VIP
+item-vip-description = item-vip-description

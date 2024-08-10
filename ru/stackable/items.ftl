@@ -6,3 +6,5 @@ item-armor-description = item-armor-description
 item-kukus-description = item-kukus-description
 item-kuscoin-name = item-kuscoin-name
 item-kuscoin-description = item-kuscoin-description
+item-vip-name = item-vip-name
+item-vip-description = item-vip-description
