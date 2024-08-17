@@ -149,7 +149,7 @@ chat_settings-farewell-set-type-window-text =
     — Stickers don't support text display.
 chat_settings-set-farewell-window-text = chat_settings-set-farewell-window-text
 chat_settings-farewell-set-type-text =
-    ⚙️ Greeting type: { $farewell_type ->
+    ⚙️ Farewell type: { $farewell_type ->
         [text] { chat_settings-set-type-text-button }
         [photo] { chat_settings-set-type-photo-button }
         [video] { chat_settings-set-type-video-button }

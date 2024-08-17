@@ -1,12 +1,29 @@
-pay-reply_required = pay-reply_required
-pay-sender_chat-not_supported = pay-sender_chat-not_supported
-pay-bot-not_supported = pay-bot-not_supported
-pay-cant_pay_self = pay-cant_pay_self
-pay-specify_items = pay-specify_items
-pay-accept_button = pay-accept_button
-pay-decline_button = pay-decline_button
-pay-transfer_declined = pay-transfer_declined
-pay-deprecated = pay-deprecated
-pay-not_enough_item = pay-not_enough_item{ $item_emoji }{ $item_name }{ $item_amount }
-pay-waiting_for_answer = pay-waiting_for_answer{ $receiver_mention }{ $items }
-pay-transfer_accepted = pay-transfer_accepted{ $receiver_mention }{ $receiver_gender }{ $items }
+pay-reply_required = ⚠️ Необходимо ответить на сообщение
+pay-sender_chat-not_supported = ⚠️ Нельзя передавать предметы каналам
+pay-bot-not_supported = ⚠️ Нельзя передавать предметы ботам
+pay-cant_pay_self = ⚠️ Нельзя передавать предметы самому себе
+pay-specify_items = ⚠️ Укажите предметы, которые хотите передать
+pay-accept_button = ✅ Передать
+pay-decline_button = ❌ Отклонить
+pay-transfer_declined = 💁‍♂️ Платеж отклонен
+pay-deprecated = ⚠️ Время на ответ истекло
+pay-not_enough_item =
+    ⚠️ У вас недостаточно предметов
+    
+    { $item_emoji } { $item_name }: { $item_amount }
+pay-waiting_for_answer =
+    ❓ Вы уверены, что хотите передать эти предметы?
+    
+    ✨ { $receiver_mention } получит:
+    { $items }
+    
+    ⏳ Ожидание ответа...
+pay-transfer_accepted =
+    ✅ Предметы успешно переданы
+    
+    ✨ { $receiver_mention } { $receiver_gender ->
+        [m] получил
+        [f] получила
+       *[other] получило
+    }:
+    { $items }

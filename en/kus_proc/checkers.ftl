@@ -3,7 +3,7 @@ kus-disabled-in-group =
     
     To turn on Kus function - run the command:
     /chat_settings and choose "Enable Kus"
-kus-reply-required = You should answer the message, to use this command.
+kus-reply-required = You should answer the message, to run this command.
 cant-kus-bot = You cannot use this command on <b>🤖 Bot</b>
 predator_sender_chat-cant-kus =
     You cannot use this command as <b>📓 Channel</b>

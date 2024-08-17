@@ -1,14 +1,41 @@
-settings-gender-male = settings-gender-male
-settings-gender-female = settings-gender-female
-settings-gender-text = settings-gender-text
-settings-gender-selected-text = settings-gender-selected-text{ $gender }
-settings-gender-button = settings-gender-button
-settings-close-button = settings-close-button
-settings-language = settings-language
-settings-lang = settings-lang
-settings-choose-language = settings-choose-language
-settings-language-selected-text = settings-language-selected-text{ $language }
-settings-language-code = settings-language-code{ $language_code }
-settings-text = settings-text{ $language }{ $gender }
-settings = settings
-settings-closed = settings-closed
+settings = настройки
+settings-gender-male = 👨 Мужчина
+settings-gender-female = 👩 Женщина
+settings-language = язык
+settings-lang = язык
+settings-choose-language = 🌐 Выберите язык
+settings-text =
+    ⚙️ Настройки
+    
+    🌐 Язык: { $language }
+    ♂️ Пол: { $gender ->
+        [m] { settings-gender-male }
+        [f] { settings-gender-female }
+       *[other] Неизвестно
+    }
+settings-gender-button = ♂️ Выбрать пол
+settings-gender-text = ♂️ Выберите свой пол
+settings-gender-selected-text =
+    ♂️ Выбран пол: { $gender ->
+        [m] { settings-gender-male }
+        [f] { settings-gender-female }
+       *[other] Неизвестно
+    }
+settings-language-selected-text =
+    Выбран язык: { $language ->
+        [en] 🇺🇸 English
+        [uk] 🇺🇦 Українська
+        [ru] 🇷🇺 Русский
+        [yo] 🇳🇬 Yoruba
+       *[other] Неизвестно
+    }
+settings-language-code =
+    { $language_code ->
+        [en] 🇺🇸 English
+        [uk] 🇺🇦 Українська
+        [ru] 🇷🇺 Русский
+        [yo] 🇳🇬 Yoruba
+       *[other] Неизвестно
+    }
+settings-close-button = ❌ Закрыть
+settings-closed = ✅ Настройки закрыты

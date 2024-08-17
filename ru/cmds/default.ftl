@@ -1,6 +1,26 @@
-default-help_text = default-help_text
-default-yuy_text = default-yuy_text
-default-chat_id = default-chat_id{ $chat_id }{ $message_thread_id }
-privacy-policy = privacy-policy
-public-offer = public-offer
-settings-reload-success = settings-reload-success
+settings-reload-success = ✅ Кэш настроек перезагружен!
+default-help_text = cmds-default--help-text
+default-yuy_text =
+    <code> __________________________
+    / Дружочек, ты видимо не   \
+    | понял с кем связался.    |
+    | Вот эта твоя манера речи |
+    | «клоунская» меня совсем  |
+    | не впечатляет. Давай     |
+    | встретимся и я объясню   |
+    | на понятном для тебя     |
+    \ языке, языке боли.       /
+     --------------------------
+            \   ^__^
+             \  (oo)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||
+    </code>
+privacy-policy = Политика конфиденциальности
+public-offer = Публичная оферта
+default-chat_id =
+    🆔 Идентификаторы чата:
+    
+    CHAT_ID: <code>{ $chat_id }</code>
+    TOPIC_ID: <code>{ $message_thread_id }</code>

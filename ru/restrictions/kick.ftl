@@ -1,7 +1,51 @@
-restrictions-kick-usage = restrictions-kick-usage
-restrictions-kick-set-user-or-reply = restrictions-kick-set-user-or-reply
-restrictions-cant-kick-self = restrictions-cant-kick-self
-restrictions-cant-kick-admin = restrictions-cant-kick-admin
-restrictions-kick-error = restrictions-kick-error
-restrictions-kick-text = restrictions-kick-text{ $victim_id }{ $victim_mention }{ $admin_mention }{ $reason }
-restrictions-kick-usage-advanced = restrictions-kick-usage-advanced
+restrictions-kick-usage =
+    <b>📚 Документация [ /kick ]</b>
+    
+    <b>📝 Описание:</b>
+    Команда /kick используется чтобы исключать участников чата.
+    
+    <b>✋ Использование:</b>
+    - /kick [пользователь] [причина исключения]
+    
+    <b>💡 Пример:</b>
+    - <code>/kick @username Причина исключения</code>
+    - <code>/kick id123456789 Причина исключения</code>
+restrictions-kick-usage-advanced =
+    { restrictions-kick-usage }
+    
+    <b>⚠ Обратите внимание:</b>
+    ● Исключенный участник может вернуться в чат при помощи ссылки-приглашения;
+    ● Команду можно использовать в ответ на сообщение нарушителя;
+    ● Если причина исключения не указана, то она будет указана как "Без причины";
+restrictions-kick-set-user-or-reply =
+    <b>⚠ Ошибка:</b>
+    
+    <i>— Я не смогла найти пользователя, которого вы хотите исключить</i>
+    
+    <i>💁‍♂️ Попробуйте указать его ID, или же использовать команду в ответ на его сообщение.</i>
+    
+    <b>💡 Пример:</b>
+    - <code>/kick id123456</code>
+restrictions-cant-kick-admin =
+    <b>⚠ Ошибка:</b>
+    
+    <i>— Я не могу исключить администратора.</i>
+restrictions-kick-error =
+    <b>⚠ Ошибка:</b>
+    
+    <i>— Я не смогла исключить пользователя.</i>
+    
+    <i>💁‍♂️ Попробуйте проверить есть ли у меня права на это.</i>
+restrictions-cant-kick-self =
+    <b>⚠ Ошибка:</b>
+    
+    <i>— Я не могу исключить себя. 🤷‍♂️</i>
+restrictions-kick-text =
+    #KICK
+    
+    ID: <code>{ $victim_id }</code>
+    NAME: { $victim_mention }
+    
+    ADMIN: { $admin_mention }
+    
+    Причина: { $reason }

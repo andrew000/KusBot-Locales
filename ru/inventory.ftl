@@ -1,12 +1,16 @@
-inventory = inventory
-i = i
-inventory-items = inventory-items
-inventory-resources = inventory-resources
-inventory-weapons = inventory-weapons
-inventory-close = inventory-close
-inventory-items-text = inventory-items-text{ $items }
-inventory-not-implemented = inventory-not-implemented
-inventory-closed = inventory-closed
-inventory-unknown-window = inventory-unknown-window
-inventory-resources-text = inventory-resources-text{ $resources }
+inventory-items = ✨ Предметы
+inventory-resources = 📦 Ресурсы
+inventory-weapons = 🗡️ Оружие
+inventory-close = ❌ Закрыть
+inventory = инвентарь
+i = и
 inventory-weapons-not-implemented = inventory-weapons-not-implemented
+inventory-unknown-window = ⚠️ Неизвестное окно инвентаря
+inventory-resources-text =
+    📦 Ресурсы
+    { $resources }
+inventory-items-text =
+    ✨ Предметы
+    { $items }
+inventory-not-implemented = inventory-not-implemented
+inventory-closed = ✅ Инвентарь закрыт

@@ -12,5 +12,5 @@ inventory-resources-text =
 inventory-items-text =
     ✨ Предмети
     { $items }
-inventory-not-implemented = inventory--not-implemented
+inventory-not-implemented = inventory-not-implemented
 inventory-closed = ✅ Інвентар закрито
