@@ -8,15 +8,15 @@ settings-text =
     ⚙️ Настройки
     
     🌐 Язык: { $language }
-    ♂️ Пол: { $gender ->
+    🚻 Пол: { $gender ->
         [m] { settings-gender-male }
         [f] { settings-gender-female }
        *[other] Неизвестно
     }
-settings-gender-button = ♂️ Выбрать пол
-settings-gender-text = ♂️ Выберите свой пол
+settings-gender-button = 🚻 Выбрать пол
+settings-gender-text = 🚻 Выберите свой пол
 settings-gender-selected-text =
-    ♂️ Выбран пол: { $gender ->
+    🚻 Выбран пол: { $gender ->
         [m] { settings-gender-male }
         [f] { settings-gender-female }
        *[other] Неизвестно

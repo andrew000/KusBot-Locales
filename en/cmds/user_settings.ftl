@@ -8,15 +8,15 @@ settings-text =
     ⚙️ Settings
     
     🌐 Language: { $language }
-    ♂️ Gender: { $gender ->
+    🚻 Gender: { $gender ->
         [m] { settings-gender-male }
         [f] { settings-gender-female }
        *[other] Unknown
     }
-settings-gender-button = ♂️ Choose gender
-settings-gender-text = ♂️ Select your gender
+settings-gender-button = 🚻 Choose gender
+settings-gender-text = 🚻 Select your gender
 settings-gender-selected-text =
-    ♂️ Gender selected: { $gender ->
+    🚻 Gender selected: { $gender ->
         [m] { settings-gender-male }
         [f] { settings-gender-female }
        *[other] Unknown

@@ -8,15 +8,15 @@ settings-text =
     ⚙️ Налаштування
     
     🌐 Мова: { $language }
-    ♂️ Стать: { $gender ->
+    🚻 Стать: { $gender ->
         [m] { settings-gender-male }
         [f] { settings-gender-female }
        *[other] Невідомо
     }
-settings-gender-button = ♂️ Обрати стать
-settings-gender-text = ♂️ Оберіть свою стать
+settings-gender-button = 🚻 Обрати стать
+settings-gender-text = 🚻 Оберіть свою стать
 settings-gender-selected-text =
-    ♂️ Обрано стать: { $gender ->
+    🚻 Обрано стать: { $gender ->
         [m] { settings-gender-male }
         [f] { settings-gender-female }
        *[other] Невідомо
