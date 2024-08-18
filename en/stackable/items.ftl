@@ -6,5 +6,5 @@ item-kukus-name = Kukus
 item-kukus-description = Kukus — stronger version of common Kus. Allows you to bite the victim and make them silent over 5 minutes!
 item-kuscoin-name = KusCoin
 item-kuscoin-description = KusCoin — currency, can be spent for the purchase of various items.
-item-vip-name = item-vip-name
+item-vip-name = VIP
 item-vip-description = item-vip-description
