@@ -4,7 +4,6 @@ inventory-weapons = 🗡️ Зброя
 inventory-close = ❌ Закрити
 inventory = інвентар
 i = і
-inventory-weapons-not-implemented = inventory-weapons-not-implemented
 inventory-unknown-window = ⚠️ Невідоме вікно інвентарю
 inventory-resources-text =
     📦 Ресурси
@@ -12,5 +11,8 @@ inventory-resources-text =
 inventory-items-text =
     ✨ Предмети
     { $items }
-inventory-not-implemented = inventory-not-implemented
+inventory-weapons-text = 🗡️ Зброя
+inventory-weapons-detailed_button = { $weapon }
 inventory-closed = ✅ Інвентар закрито
+inventory-no_weapons = 🗡️ Зброя відсутня
+inventory-weapons-deprecated = ⚠️ Повідомлення застаріло
