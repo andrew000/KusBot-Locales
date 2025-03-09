@@ -5,3 +5,4 @@ message-deprecated =
     ⚠️ Сообщение устарело.
     
     Выполните команду еще раз.
+cancelled = cancelled
