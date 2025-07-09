@@ -22,7 +22,7 @@ restrictions-ban-usage-advanced =
         · h - hours
         · m - minutes
     💡 Example: 1d12h - 1 day 12 hours;
-restrictions-ban-set-user-or-reply =
+restrictions-ban-set-user-or_-reply =
     <b>⚠ Error:</b>
     
     <i>— I can't find member, you want to ban.</i>

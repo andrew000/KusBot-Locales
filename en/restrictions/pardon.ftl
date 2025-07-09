@@ -16,7 +16,7 @@ restrictions-pardon-usage-advanced =
     <b>⚠ Pay attention:</b>
     ● Command can be used in response to a members message.
     ● If the reason is not set, it will be set to "No reason".
-restrictions-pardon-set-user-or-reply =
+restrictions-pardon-set-user-or_-reply =
     <b>⚠ Error:</b>
     
     <i>— I can't find member, you want to pardon.</i>

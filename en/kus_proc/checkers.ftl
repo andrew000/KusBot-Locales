@@ -1,4 +1,4 @@
-kus-disabled-in-group =
+kus-disabled-in_-group =
     Kus disabled.
     
     To turn on Kus function - run the command:
@@ -13,7 +13,7 @@ victim_sender_chat-cant-be-kus-ed =
     You are not able to use this command on <b>📓 Channel</b>
     
     You can only use this command on <b>👤 Person</b>, but not on <b>📓 Channel</b>"
-bot-does-not-have-permissions-to-process-kus =
+bot-does-not_-have-permissions-to-process-kus =
     I can't do this action, because I don't have enough rights.
     
     I need the following administrator rights:

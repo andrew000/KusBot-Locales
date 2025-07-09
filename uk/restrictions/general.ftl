@@ -3,7 +3,7 @@ restrictions-close-advanced-info = ❌ Закрити
 restrictions-closed = ✅ Закрито
 restrictions-no-reason = Без причини 🤷‍♂️
 restrictions-forever = Назавжди ♾
-restrictions-not-enough-rights =
+restrictions-not_-enough-rights =
     <b>⚠ Помилка:</b>
     
     <i>— У мене немає прав на це.</i>

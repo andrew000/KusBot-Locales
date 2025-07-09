@@ -22,7 +22,7 @@ restrictions-mute-usage-advanced =
         · h - hours
         · m - minutes
     💡 Example: 1d12h - 1 day 12 hour;
-restrictions-mute-set-user-or-reply =
+restrictions-mute-set-user-or_-reply =
     <b>⚠ Помилка:</b>
     
     <i>— Я не змогла знайти користувача, якого ви хочете замутити.</i>

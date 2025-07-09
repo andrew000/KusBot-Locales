@@ -21,4 +21,4 @@ phantom-mode-ask-timeout = ⚠️⏳ Time's up. Denied to enable phantom mode.
 phantom-mode-ask-deprecated = ⚠️⏳ Time's up. Request is outdated.
 phantom-mode-enabled-success = ✅ Phantom mode enabled.
 phantom-mode-set-canceled = ➡️ Phantom mode request denied.
-phantom-mode-private-not-allowed = ⚠️ Phantom mode is prohibited in private chat.
+phantom-mode-private-not_-allowed = ⚠️ Phantom mode is prohibited in private chat.

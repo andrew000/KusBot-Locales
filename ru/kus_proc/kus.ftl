@@ -16,7 +16,7 @@ member-kus-member =
     } { $victim }.
     
     { $victim } не может кусаться на протяжении 1 минуты.
-member-dont-break-armor-and-get-restrict =
+member-dont-break_-armor-and_-get-restrict =
     { $predator } { $predator_gender ->
         [m] пытался
         [f] пыталась
@@ -78,7 +78,7 @@ predator-has-disarm-status =
         [f] Она
        *[other] Оно
     } не может кусаться на протяжении 1 минуты.
-victim-not-in-game =
+victim-not_-in_-game =
     { $victim } не находится в игре.
     
     Вероятно, { $victim_gender ->
@@ -114,7 +114,7 @@ member-self-kus =
         [f] Она
        *[other] Оно
     } не может кусаться на протяжении 1 минуты.
-admin-break-armor-and-kus-admin =
+admin-break_-armor-and_-kus-admin =
     Администратор { $predator } { $predator_gender ->
         [m] сломал щит и укусил
         [f] сломала щит и укусила
@@ -126,7 +126,7 @@ admin-break-armor-and-kus-admin =
         [f] обезоружена
        *[other] обезоружено
     } на 1 минуту.
-admin-break-armor-and-kus-member =
+admin-break_-armor-and_-kus-member =
     Администратор { $predator } { $predator_gender ->
         [m] сломал щит и укусил
         [f] сломала щит и укусила
@@ -134,7 +134,7 @@ admin-break-armor-and-kus-member =
     } { $victim }.
     
     { $victim } не может кусаться на протяжении 1 минуты.
-admin-dont-break-armor-and-get-disarm =
+admin-dont-break_-armor-and_-get-disarm =
     Администратор { $predator } { $predator_gender ->
         [m] пытался
         [f] пыталась
@@ -159,7 +159,7 @@ admin-kus-member =
     } { $victim }.
     
     { $victim } не может отправлять сообщения на протяжении 1 минуты.
-member-break-armor-and-kus-admin =
+member-break_-armor-and_-kus-admin =
     { $predator } сломал щит и { $predator_gender ->
         [m] укусил
         [f] укусила
@@ -171,7 +171,7 @@ member-break-armor-and-kus-admin =
         [f] обезоружена
        *[other] обезоружено
     } на 1 минуту.
-member-break-armor-and-kus-member =
+member-break_-armor-and_-kus-member =
     { $predator } { $predator_gender ->
         [m] сломал щит и укусил
         [f] сломала щит и укусила
@@ -179,7 +179,7 @@ member-break-armor-and-kus-member =
     } { $victim }.
     
     { $victim } не может кусаться на протяжении 1 минуты.
-predator-in-phantom-mode =
+predator-in_-phantom-mode =
     👻 Ты находишься в фантомном режиме.
     
     Ты не можешь кусаться либо быть { $predator_gender ->
@@ -187,7 +187,7 @@ predator-in-phantom-mode =
         [f] укушенной.
        *[other] укушенным.
     }
-victim-in-phantom-mode =
+victim-in_-phantom-mode =
     { $victim } находится в 👻 фантомном режиме.
     
     { $victim_gender ->

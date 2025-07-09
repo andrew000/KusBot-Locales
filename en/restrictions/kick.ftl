@@ -17,7 +17,7 @@ restrictions-kick-usage-advanced =
     ● Member can return to the chat using invite-link;
     ● Command can be used to reply members message.
     ● If reason is not set, it will be set as "No reason";
-restrictions-kick-set-user-or-reply =
+restrictions-kick-set-user-or_-reply =
     <b>⚠ Error:</b>
     
     <i>— I can't find member, you want to kick.</i>

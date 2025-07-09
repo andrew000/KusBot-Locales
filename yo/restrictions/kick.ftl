@@ -1,5 +1,5 @@
 restrictions-kick-usage = restrictions-kick-usage
-restrictions-kick-set-user-or-reply = restrictions-kick-set-user-or-reply
+restrictions-kick-set-user-or_-reply = restrictions-kick-set-user-or_-reply
 restrictions-cant-kick-self = restrictions-cant-kick-self
 restrictions-cant-kick-admin = restrictions-cant-kick-admin
 restrictions-kick-error = restrictions-kick-error

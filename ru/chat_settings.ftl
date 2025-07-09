@@ -53,7 +53,7 @@ chat_settings-unknown-timezone = ⚠️ Неизвестный часовой п
 chat_settings-timezone-saved =
     ✅ Часовой пояс сохранен:
     <blockquote><code>{ $timezone }</code></blockquote>
-chat_settings-unknown-timezone-try-again =
+chat_settings-unknown-timezone-try_-again =
     ⚠️ Неизвестный часовой пояс. Попробуйте еще раз.
     
     💁‍♂️ Часовой пояс, указывается в формате <code>Continent/City</code>
@@ -131,7 +131,7 @@ chat_settings-set-topic-id-success =
     ✅ ID Топика сохранëн:
     
     TOPIC_ID: <blockquote><code>{ $topic_id }</code></blockquote>
-chat_settings-set-topic-id-chat-is-not-a-topic-type = ⚠️ В этом чате нет Топиков
+chat_settings-set-topic-id-chat-is_-not_-a-topic-type = ⚠️ В этом чате нет Топиков
 chat_settings-set-topic-id-topic-closed =
     ⚠️ { $mention } выбранный Топик закрыт, а значит бот не сможет отправлять в него сообщения.
     

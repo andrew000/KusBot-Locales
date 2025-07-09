@@ -8,4 +8,4 @@ phantom-mode-ask-timeout = phantom-mode-ask-timeout
 phantom-mode-ask-deprecated = phantom-mode-ask-deprecated
 phantom-mode-enabled-success = phantom-mode-enabled-success
 phantom-mode-set-canceled = phantom-mode-set-canceled
-phantom-mode-private-not-allowed = phantom-mode-private-not-allowed
+phantom-mode-private-not_-allowed = phantom-mode-private-not_-allowed

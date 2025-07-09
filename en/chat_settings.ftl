@@ -57,7 +57,7 @@ chat_settings-unknown-timezone = ⚠️ Unknown time zone.
 chat_settings-timezone-saved =
     ✅ Time zone saved:
     <blockquote><code>{ $timezone }</code></blockquote>
-chat_settings-unknown-timezone-try-again =
+chat_settings-unknown-timezone-try_-again =
     ⚠️ Unknown time zone. Try again.
     
     💁‍♂️ Time zone is specified in the format <code>Continent/City</code>
@@ -103,11 +103,12 @@ chat_settings-set-topic-id-success =
     ✅Topic ID is saved:
     
     TOPIC_ID: <blockquote><code>{ $topic_id }</code></blockquote>
-chat_settings-set-topic-id-chat-is-not-a-topic-type = chat_settings--set-topic-id-chat-is-not-a-topic-type
+chat_settings-set-topic-id-chat-is_-not_-a-topic-type = chat_settings-set-topic-id-chat-is_-not_-a-topic-type
 chat_settings-admin-settings-window-text =
     { chat_settings-admin-settings }
     
     💁‍♂️ Here you can customize admin chat settings.
+chat_settings-set-reports-special-chat = 🔧 Set up chat for reports
 chat_settings-reports-policy-text =
     <b>{ chat_settings-reports-policy }</b> { $is_set ->
         [0] ❌ Disabled
@@ -118,7 +119,6 @@ chat_settings-reports-policy-text =
     
     🆔 To set up chat for reports — press button: <blockquote><code>{ chat_settings-set-reports-special-chat }</code></blockquote>
 chat_settings-reports-special-chat-text = chat_settings-reports-special-chat-text{ $is_set }{ $chat_id }
-chat_settings-set-reports-special-chat = 🔧 Set up chat for reports
 chat_settings-reports-special-chat-choose-chat = 🔧 Choose chat
 chat_settings-no-pending-reports-special-chat-title = ⚠️ Chat for reports is not set up.
 chat_settings-no-pending-reports-special-chat-text =

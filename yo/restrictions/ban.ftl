@@ -1,5 +1,5 @@
 restrictions-ban-usage = restrictions-ban-usage
-restrictions-ban-set-user-or-reply = restrictions-ban-set-user-or-reply
+restrictions-ban-set-user-or_-reply = restrictions-ban-set-user-or_-reply
 restrictions-cant-ban-admin = restrictions-cant-ban-admin
 restrictions-cant-ban-self = restrictions-cant-ban-self
 restrictions-ban-error = restrictions-ban-error

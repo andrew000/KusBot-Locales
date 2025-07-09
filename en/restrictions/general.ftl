@@ -3,7 +3,7 @@ restrictions-close-advanced-info = ❌ Close
 restrictions-closed = ✅ Closed
 restrictions-no-reason = No reason 🤷‍♂️
 restrictions-forever = Forever ♾
-restrictions-not-enough-rights =
+restrictions-not_-enough-rights =
     <b>⚠ Error:</b>
     
     <i>— I have no rights to do this.</i>

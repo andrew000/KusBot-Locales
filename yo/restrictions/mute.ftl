@@ -1,5 +1,5 @@
 restrictions-mute-usage = restrictions-mute-usage
-restrictions-mute-set-user-or-reply = restrictions-mute-set-user-or-reply
+restrictions-mute-set-user-or_-reply = restrictions-mute-set-user-or_-reply
 restrictions-cant-mute-admin = restrictions-cant-mute-admin
 restrictions-cant-mute-self = restrictions-cant-mute-self
 restrictions-mute-error = restrictions-mute-error

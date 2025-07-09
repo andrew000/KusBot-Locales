@@ -16,7 +16,7 @@ member-kus-member =
     } { $victim }.
     
     { $victim } can't send messages for 1 minute.
-member-dont-break-armor-and-get-restrict =
+member-dont-break_-armor-and_-get-restrict =
     { $predator } tried to bite { $victim },
     but { $victim } { $victim_gender ->
         [m] equipped his shield and defended himself.
@@ -58,7 +58,7 @@ predator-has-disarm-status =
         [f] She
        *[other] It
     } can't bite for a minute.
-victim-not-in-game =
+victim-not_-in_-game =
     { $victim } not in game.
     
     Probably, { $victim_gender ->
@@ -70,7 +70,7 @@ admin-cant-be-kused =
     Admins can't be bitten.
     
     <span class="tg-spoiler">Admin bites can be enabled in chat settings: /chat_settings</span>
-predator-in-phantom-mode =
+predator-in_-phantom-mode =
     👻 You are in phantom mode.
     
        You cannot bite or be { $predator_gender ->
@@ -78,7 +78,7 @@ predator-in-phantom-mode =
         [f] bitten.
        *[other] bitten.
     }
-victim-in-phantom-mode =
+victim-in_-phantom-mode =
     { $victim } is in 👻 phantom mode.
     
     { $victim_gender ->
@@ -110,7 +110,7 @@ member-self-kus =
         [f] She
        *[other] It
     } can't bite for a minute.
-admin-break-armor-and-kus-admin =
+admin-break_-armor-and_-kus-admin =
     Admin { $predator } { $predator_gender ->
         [m] broke shield and bit
         [f] broke shield and bit
@@ -122,7 +122,7 @@ admin-break-armor-and-kus-admin =
         [f] disarmed
        *[other] disarmed
     } for a minute.
-admin-break-armor-and-kus-member =
+admin-break_-armor-and_-kus-member =
     Admin { $predator } { $predator_gender ->
         [m] broke shield and bit
         [f] broke shield and bit
@@ -130,7 +130,7 @@ admin-break-armor-and-kus-member =
     } { $victim }.
     
     { $victim } can't bite for a minute.
-admin-dont-break-armor-and-get-disarm =
+admin-dont-break_-armor-and_-get-disarm =
     Admin { $predator } { $predator_gender ->
         [m] tried
         [f] tried
@@ -167,7 +167,7 @@ admin-kus-member =
     } { $victim }.
     
     { $victim } can't send messages for a minute.
-member-break-armor-and-kus-member =
+member-break_-armor-and_-kus-member =
     { $predator } { $predator_gender ->
         [m] broke shield and bit
         [f] broke shield and bit
@@ -175,7 +175,7 @@ member-break-armor-and-kus-member =
     } { $victim }.
     
     { $victim } can't bite for a minute.
-member-break-armor-and-kus-admin =
+member-break_-armor-and_-kus-admin =
     { $predator } broke shield and { $predator_gender ->
         [m] bit
         [f] bit

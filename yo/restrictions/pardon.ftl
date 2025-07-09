@@ -1,5 +1,5 @@
 restrictions-pardon-usage = restrictions-pardon-usage
-restrictions-pardon-set-user-or-reply = restrictions-pardon-set-user-or-reply
+restrictions-pardon-set-user-or_-reply = restrictions-pardon-set-user-or_-reply
 restrictions-cant-pardon-admin = restrictions-cant-pardon-admin
 restrictions-cant-pardon-self = restrictions-cant-pardon-self
 restrictions-pardon-error = restrictions-pardon-error
