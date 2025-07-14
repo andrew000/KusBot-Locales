@@ -16,3 +16,4 @@ inventory-weapons-text = inventory-weapons-text
 inventory-no_weapons = inventory-no_weapons
 inventory-weapons-deprecated = inventory-weapons-deprecated
 inventory-weapons-detailed_button = inventory-weapons-detailed_button{ $weapon }
+inventory-cancel-and_-back = inventory-cancel-and_-back

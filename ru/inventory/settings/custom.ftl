@@ -7,7 +7,11 @@ unique_item_settings-custom-gallery-empty = unique_item_settings-custom-gallery-
 
 unique_item_settings-custom-gallery-no_trigger = unique_item_settings-custom-gallery-no_trigger
 inventory-unique-custom-setting-switch_type = inventory-unique-custom-setting-switch_type{ $kus_type }
-
-# unique_item_settings-custom-gallery-text = unique_item_settings-custom-gallery-text{ $trigger }{ $kus_type }{ $custom_uuid }{ $text }
-
-unique_item_settings-custom-gallery-text = unique_item_settings-custom-gallery-text{ $trigger }{ $kus_type }{ $custom_uuid }
+unique_item_settings-custom-gallery-edit_trigger = unique_item_settings-custom-gallery-edit_trigger{ $trigger }
+unique_item_settings-custom-gallery-preview = unique_item_settings-custom-gallery-preview{ $trigger }{ $kus_type }{ $custom_uuid }
+unique_item_settings-custom-gallery-trigger_symbol_forbidden = unique_item_settings-custom-gallery-trigger_symbol_forbidden
+unique_item_settings-custom-gallery-trigger_too_long = unique_item_settings-custom-gallery-trigger_too_long{ $max_length }
+unique_item_settings-custom-gallery-edit_gif = unique_item_settings-custom-gallery-edit_gif
+unique_item_settings-custom-gallery-answer_too_long = unique_item_settings-custom-gallery-answer_too_long{ $max_length }
+unique_item_settings-custom-gallery-standard-answer-text = unique_item_settings-custom-gallery-standard-answer-text{ $predator }{ $victim }
+unique_item_settings-custom-gallery-edit_text = unique_item_settings-custom-gallery-edit_text

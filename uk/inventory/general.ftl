@@ -16,3 +16,4 @@ inventory-weapons-detailed_button = { $weapon }
 inventory-closed = ✅ Інвентар закрито
 inventory-no_weapons = 🗡️ Зброя відсутня
 inventory-weapons-deprecated = ⚠️ Повідомлення застаріло
+inventory-cancel-and_-back = 🔙 Назад
