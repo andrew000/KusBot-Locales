@@ -160,3 +160,4 @@ chat_settings-farewell-set-type-text =
 chat_settings-set-reports-special-chat-success-text = chat_settings-set-reports-special-chat-success-text{ $chat_id }
 chat_settings-set-text-too-long = chat_settings-set-text-too-long{ $max_length }
 chat_settings-set-topic-id-topic-closed = chat_settings-set-topic-id-topic-closed{ $mention }
+chat_settings-reset-reports-special-chat = chat_settings-reset-reports-special-chat

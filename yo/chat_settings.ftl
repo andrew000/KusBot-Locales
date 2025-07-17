@@ -55,3 +55,4 @@ chat_settings-greeting-set-text-window-text = chat_settings-greeting-set-text-wi
 chat_settings-greeting-set-type-window-text = chat_settings-greeting-set-type-window-text
 chat_settings-greeting-set-type-text = chat_settings-greeting-set-type-text{ $greeting_type }
 chat_settings-set-greeting-window-text = chat_settings-set-greeting-window-text
+chat_settings-reset-reports-special-chat = chat_settings-reset-reports-special-chat
