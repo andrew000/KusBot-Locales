@@ -177,3 +177,5 @@ trade-reply_required = ⚠️ Нужно ответить на сообщени�
 trade-sender_chat-not_supported = ⚠️ Нельзя обмениваться предметами с каналами
 trade-bot-not_supported = ⚠️ Нельзя обмениваться предметами с ботами
 trade-cant_trade_self = ⚠️ Нельзя обмениваться предметами с самим собой
+trade-user_not_own_unique_item = trade-user_not_own_unique_item{ $user_mention }{ $uuid }
+pay-user_not_own_unique_item = pay-user_not_own_unique_item{ $uuid }

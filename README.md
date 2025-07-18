@@ -2,7 +2,8 @@
 
 ***
 
-This repository contains the localization files for [KusBot project](https://t.me/KusBot). If you want to help us translate KusBot into your
+This repository contains the localization files for [KusBot project](https://t.me/KusBot). If you want to help us
+translate KusBot into your
 language, please read the [CONTRIBUTING.md](https://github.com/andrew000/KusBot-Locales/blob/master/CONTRIBUTING.md)
 file.
 

@@ -28,7 +28,7 @@ star_payments-accepted_terms =
         [m] ПРИЙНЯВ
         [f] ПРИЙНЯЛА
        *[other] ПРИЙНЯВ(ЛА)
-    }</u></b> умови о:
+    }</u></b> умови в:
     <blockquote>{ $time }</blockquote>
     
     Умови: { $terms_url }
@@ -40,11 +40,11 @@ star_payments-declined_terms =
         [m] ВІДМОВИВСЯ
         [f] ВІДМОВИЛАСЯ
        *[other] ВІДМОВИВСЯ(ЛА)
-    }</u></b> від умови о:
+    }</u></b> від умови в:
     <blockquote>{ $time }</blockquote>
     
     Умови: { $terms_url }
-star_payments-enter_transaction_id = Введіть ідентифікатор транзакції для повернення або натисніть /cancel, щоб скасувати
+star_payments-enter_transaction_id = Введіть ідентифікатор транзакції для повернення коштів або натисніть /cancel, щоб скасувати
 star_payments-payment_with_tid_not_found =
     ⚠️ Платіж з ідентифікатором транзакції:
     <blockquote expandable>{ $transaction_id }
@@ -53,10 +53,10 @@ star_payments-payment_with_tid_not_found =
     <b>Не знайдено</b>
 star_payments-payment_already_refunded = ⚠️ Платіж вже повернуто
 star_payments-payment_not_paid = ⚠️ Платіж не сплачено, не можна повернути
-star_payments-refund_period_exceeded = ⚠️ Період повернення { $days } днів закінчився
-star_payments-not_enough_kuscoin_to_refund = Недостатньо KusCoin для повернення
+star_payments-refund_period_exceeded = ⚠️ Період повернення коштів в { $days } днів закінчився
+star_payments-not_enough_kuscoin_to_refund = Недостатньо KusCoin для повернення коштів
 star_payments-error_while_refunding_payment =
-    ⚠️ Помилка під час повернення платежу.
+    ⚠️ Помилка під час повернення коштів.
     
     Будь ласка, напишіть нашій службі підтримки @KusSupport
 star_payments-payment_refunded =

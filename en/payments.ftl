@@ -26,3 +26,5 @@ trade-bot-not_supported = trade-bot-not_supported
 trade-cant_trade_self = trade-cant_trade_self
 pay-waiting_for_answer = pay-waiting_for_answer{ $sender_gender }{ $receiver_mention }{ $items }
 trade-already_accepted = trade-already_accepted{ $gender }
+pay-user_not_own_unique_item = pay-user_not_own_unique_item{ $uuid }
+trade-user_not_own_unique_item = trade-user_not_own_unique_item{ $user_mention }{ $uuid }
