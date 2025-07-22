@@ -19,30 +19,30 @@ special-chat-not_-set =
     /chat_settings</blockquote>
 special-report-message-text =
     #REPORT
-
+    
     <b>📝 Отчёт о жалобе:</b>
     🆔 <code>{ $reporter_id }</code>
     💬 { $reporter_mention }
-
+    
     <b>⚖️ Подозреваемый:</b>
     🆔 <code>{ $reported_id }</code>
     💬 { $reported_mention }
-
+    
     <b>Дополнительная информация:</b><blockquote expandable>
     Чат: <code>{ $chat_id }</code> - { $chat_title }
     Причина жалобы: <i>{ $reason }</i>
     Материалы дела: { $violation_message }</blockquote>
 report-message-text =
     #REPORT
-
+    
     <b>📝 Отчёт о жалобе:</b>
     🆔 <code>{ $reporter_id }</code>
     💬 { $reporter_mention }
-
+    
     <b>⚖️ Подозреваемый:</b>
     🆔 <code>{ $reported_id }</code>
     💬 { $reported_mention }
-
+    
     <b>Дополнительная информация:</b><blockquote expandable>
     Причина жалобы: <i>{ $reason }</i>
     Материалы дела: { $violation_message }</blockquote>
