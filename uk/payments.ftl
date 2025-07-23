@@ -214,7 +214,7 @@ tokenize-waiting_for_answer =
 tokenize-tokenizations_success =
     ✅ Токенізація успішна!
     
-    #TOKEN: <span class="tg-spoiler"><code>{ $token_id }</code></span>
+    #TOKEN: <code>{ $token_id }</code>
     
     📦 Токенізовані предмети:
     { $items }
