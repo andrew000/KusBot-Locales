@@ -11,9 +11,9 @@ inventory-resources-text =
 inventory-items-text =
     ✨ Предметы
     { $items }
+inventory-weapons-text = 🗡️ Оружие
+inventory-weapons-detailed_button = { $weapon }
 inventory-closed = ✅ Инвентарь закрыт
-inventory-weapons-text = inventory-weapons-text
-inventory-no_weapons = inventory-no_weapons
-inventory-weapons-deprecated = inventory-weapons-deprecated
-inventory-weapons-detailed_button = inventory-weapons-detailed_button{ $weapon }
-inventory-cancel-and_-back = inventory-cancel-and_-back
+inventory-no_weapons = 🗡️ Оружие отсутствует
+inventory-weapons-deprecated = ⚠️ Сообщение устарело
+inventory-cancel-and_-back = 🔙 Назад
