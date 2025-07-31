@@ -235,4 +235,4 @@ chat_settings-farewell-set-type-text =
         [sticker] { chat_settings-set-type-sticker-button }
        *[unknown] 🤷‍♂️
     }
-chat_settings-reset-reports-special-chat = chat_settings-reset-reports-special-chat
+chat_settings-reset-reports-special-chat = ♻️ Сбросить чат для жалоб

@@ -39,3 +39,4 @@ shop-purchase_successful =
     ────────────────────
     ✅ Успішна покупка!
 shop-purchase_failed = ⚠️ Сталась помилка при покупці предмета.
+shop-not_enough_kuscoin = ⚠️ Недостатньо KusCoin для покупки такої кількості предметів.

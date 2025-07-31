@@ -11,3 +11,4 @@ shop-confirm = shop-confirm
 shop-only_in_private_chat = shop-only_in_private_chat
 shop-unknown_item_type = shop-unknown_item_type
 shop-goto_private_chat = shop-goto_private_chat
+shop-not_enough_kuscoin = shop-not_enough_kuscoin

@@ -11,3 +11,4 @@ shop-confirm_item_purchase = shop-confirm_item_purchase{ $name }{ $emoji }{ $act
 shop-confirm = shop-confirm
 shop-back_to_shop = shop-back_to_shop
 shop-goto_private_chat = shop-goto_private_chat
+shop-not_enough_kuscoin = shop-not_enough_kuscoin

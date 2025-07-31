@@ -5,13 +5,17 @@ commands-main-list =
     📜 General commands:
     
     /start - Greeting
-    /help - Bot help
+    /help - Get help
     /ad - Get a daily reward
     /commands - All bot commands
     /profile - Your profile
-    /donate - Support the KusBot project
     /pay - Transfer currency to another player
     /trade - Exchange currency with another player
+    /tokenize - Tokenize items
+    /tokenlist - List your tokens
+    /unpack - Unpack Token
+    /shop - Shop 🛒
+    /donate - Buy ₭usCoin 🪙
 admin-command-list-button = 👮‍♂️ Admin
 commands-admin-list =
     👮‍♂️ Administrator commands:
@@ -20,23 +24,12 @@ commands-admin-list =
     /pardon - Unblock user
     /mute - Mute yser
     /kick - Kick user
-    /settings - Bot settings
-    /chatinfo - information about the chat
-    /userinfo - Information about the user
-    /chatid - Get chat ID
-    /userid - Get user ID
-    /chatlink - Get invite link
-    /enable - Enable settings
-    /disable - Disable settings
-    /setlang - Set bot language
-    /setchatlang - Set chat language
+    /chat_settings - Chat settings
 vip-command-list-button = 👑 VIP
 commands-vip-list =
     👑 VIP команди:
     
-    /buy - Buy ₭usCoin 🪙
-    /shop - Shop 🛒
-    /custom - Customization 🎨
+    /r - Refresh
 other-command-list-button = 🔮 Other
 commands-other-list =
     🔮 Other commands:

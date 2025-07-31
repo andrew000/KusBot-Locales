@@ -1,6 +1,6 @@
 command-ad = command-ad
 command-ban = command-ban
-command-buy = command-buy
+command-donate = command-donate
 command-cancel = command-cancel
 command-chat_id = command-chat_id
 command-chat_settings = command-chat_settings

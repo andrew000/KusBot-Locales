@@ -1,6 +1,6 @@
 command-ad = 🎁 Отримати нагороду
 command-ban = 🔨 Забанити користувача
-command-buy = 🛒 Маркет
+command-donate = 🛒 Донат
 command-cancel = ❌ Універсальне скасування
 command-chat_id = 📱 Отримати ID чату
 command-chat_settings = ⚙️ Налаштування чату
