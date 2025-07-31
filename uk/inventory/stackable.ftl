@@ -1,10 +1,10 @@
 item-kus-name = Кусь
-item-kus-description = Кусь — вкуси свою жертву і змусь її мовчати цілу хвилину!
+item-kus-description = Вкуси свою жертву і змусь її мовчати цілу хвилину!
 item-armor-name = Щит
-item-armor-description = Щит — з деяким шансом захистить тебе від укусу.
+item-armor-description = З деяким шансом захистить тебе від укусу.
 item-kukus-name = Кукусь
-item-kukus-description = Кукусь — посилена версія звичайного Кусь. Дає змогу укусити жертву і змусити її мовчати понад 5 хвилин!
+item-kukus-description = Посилена версія звичайного Кусь. Дає змогу укусити жертву і змусити її мовчати понад 5 хвилин!
 item-kuscoin-name = КусьКоїн
-item-kuscoin-description = КусьКоїн — валюта, яку можна витратити на покупку різних предметів.
+item-kuscoin-description = Валюта, яку можна витратити на покупку різних предметів.
 item-vip-name = VIP
 item-vip-description = item-vip-description

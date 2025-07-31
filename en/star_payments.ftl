@@ -72,3 +72,4 @@ star_payments-successful_payment =
     ✅ Successful payment
     
     Check your balance with /balance
+star_payments-closed = star_payments-closed

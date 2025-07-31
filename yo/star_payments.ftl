@@ -21,3 +21,4 @@ star_payments-payment_with_tid_not_found = star_payments-payment_with_tid_not_fo
 star_payments-payment_already_paid = star_payments-payment_already_paid
 star_payments-payment_not_found = star_payments-payment_not_found
 star_payments-successful_payment = star_payments-successful_payment
+star_payments-closed = star_payments-closed

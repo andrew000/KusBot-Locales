@@ -72,3 +72,4 @@ star_payments-successful_payment =
     ✅ Успешный платёж
     
     Проверьте ваш баланс, нажав /balance
+star_payments-closed = star_payments-closed

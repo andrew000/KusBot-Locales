@@ -72,3 +72,4 @@ star_payments-successful_payment =
     ✅ Успішний платіж
     
     Перевірте ваш баланс, натиснувши /balance
+star_payments-closed = ❌ Сеанс покупки KusCoin завершено

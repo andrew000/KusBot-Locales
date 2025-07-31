@@ -11,9 +11,10 @@ inventory-resources-text =
 inventory-items-text =
     ✨ Items
     { $items }
+inventory-weapons-text = 🗡️ Weapons
+inventory-weapons-detailed_button = { $weapon }
 inventory-closed = ✅ Inventory closed
-inventory-weapons-text = inventory-weapons-text
-inventory-no_weapons = inventory-no_weapons
-inventory-weapons-deprecated = inventory-weapons-deprecated
-inventory-weapons-detailed_button = inventory-weapons-detailed_button{ $weapon }
-inventory-cancel-and_-back = inventory-cancel-and_-back
+detailed_inventory-no_weapons = 🗡️ No weapons available
+detailed_inventory-deprecated = ⚠️ Message deprecated
+inventory-cancel-and_-back = 🔙 Back
+inventory-deprecated = ⚠️ Message deprecated

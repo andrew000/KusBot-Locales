@@ -1,0 +1,13 @@
+shop-cancelled = shop-cancelled
+shop-back_to_shop = shop-back_to_shop
+shop-closed = shop-closed
+shop-purchase_successful = shop-purchase_successful{ $name }{ $emoji }{ $actual_amount }{ $total_cost }
+shop-choose_item_to_buy_text = shop-choose_item_to_buy_text
+shop-confirm_item_purchase = shop-confirm_item_purchase{ $name }{ $emoji }{ $actual_amount }{ $total_cost }
+shop-ask_item_amount = shop-ask_item_amount{ $name }{ $emoji }{ $description }{ $kus_coin_price }{ $amount_per_price }
+shop-close = shop-close
+shop-purchase_failed = shop-purchase_failed
+shop-confirm = shop-confirm
+shop-only_in_private_chat = shop-only_in_private_chat
+shop-unknown_item_type = shop-unknown_item_type
+shop-goto_private_chat = shop-goto_private_chat
