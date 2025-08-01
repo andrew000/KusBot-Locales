@@ -18,9 +18,11 @@ default-yuy_text =
                     ||     ||
     </code>
 privacy-policy = Политика конфиденциальности
-public-offer = Публичная оферта
 default-chat_id =
     🆔 Идентификаторы чата:
     
     CHAT_ID: <code>{ $chat_id }</code>
     TOPIC_ID: <code>{ $message_thread_id }</code>
+default-support_button = default-support_button
+default-support_text = default-support_text
+terms = terms{ $url }

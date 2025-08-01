@@ -18,9 +18,11 @@ default-yuy_text =
                     ||     ||
     </code>
 privacy-policy = Privacy policy
-public-offer = Public Offer
 default-chat_id =
     🆔 Chat IDs:
     
     CHAT_ID: <code>{ $chat_id }</code>
     TOPIC_ID: <code>{ $message_thread_id }</code>
+default-support_text = default-support_text
+default-support_button = default-support_button
+terms = terms{ $url }

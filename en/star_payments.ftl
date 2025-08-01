@@ -1,5 +1,5 @@
-terms-agree = I agree
-terms-disagree = I disagree
+star_payments-terms-agree = I agree
+star_payments-terms-disagree = I disagree
 star_payments-enter_kuscoin_amount = Enter KusCoin amount to buy or /cancel to cancel
 star_payments-invalid_amount =
     ⚠️ Invalid amount.
@@ -44,22 +44,22 @@ star_payments-declined_terms =
     <blockquote>{ $time }</blockquote>
     
     Terms: { $terms_url }
-star_payments-enter_transaction_id = Enter transaction id to refund or /cancel to cancel
-star_payments-payment_with_tid_not_found =
+refund-enter_transaction_id = Enter transaction id to refund or /cancel to cancel
+refund-payment_with_tid_not_found =
     ⚠️ Payment with transaction id:
     <blockquote expandable>{ $transaction_id }
     </blockquote>
     
     <b>Not found</b>
-star_payments-payment_already_refunded = ⚠️ Payment already refunded
-star_payments-payment_not_paid = ⚠️ Payment not paid, can't refund
-star_payments-refund_period_exceeded = ⚠️ Refund period { $days } days exceeded
-star_payments-not_enough_kuscoin_to_refund = ⚠️ Not enough KusCoin to refund
-star_payments-error_while_refunding_payment =
+refund-payment_already_refunded = ⚠️ Payment already refunded
+refund-payment_not_paid = ⚠️ Payment not paid, can't refund
+refund-refund_period_exceeded = ⚠️ Refund period { $days } days exceeded
+refund-not_enough_kuscoin_to_refund = ⚠️ Not enough KusCoin to refund
+refund-error_while_refunding_payment =
     ⚠️ Error while refunding payment.
     
     Please write to our support @KusSupport
-star_payments-payment_refunded =
+refund-payment_refunded =
     Payment with transaction id:
     <blockquote expandable><code>{ $transaction_id }</code>
     </blockquote> has been refunded.
@@ -73,3 +73,7 @@ star_payments-successful_payment =
     
     Check your balance with /balance
 star_payments-closed = star_payments-closed
+refund-only_in_private_chat = refund-only_in_private_chat
+star_payments-only_in_private_chat = star_payments-only_in_private_chat
+star_payments-goto_private_chat = star_payments-goto_private_chat
+refund-goto_private_chat = refund-goto_private_chat
