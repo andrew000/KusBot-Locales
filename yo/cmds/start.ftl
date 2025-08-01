@@ -1,4 +1,4 @@
-start-start_text = start-start_text{ $url }
+start-start_text = start-start_text
 profile-button = profile-button
 language-button = language-button
 commands-button = commands-button
