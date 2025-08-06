@@ -177,19 +177,73 @@ trade-reply_required = ⚠️ Нужно ответить на сообщени�
 trade-sender_chat-not_supported = ⚠️ Нельзя обмениваться предметами с каналами
 trade-bot-not_supported = ⚠️ Нельзя обмениваться предметами с ботами
 trade-cant_trade_self = ⚠️ Нельзя обмениваться предметами с самим собой
-trade-user_not_own_unique_item = trade-user_not_own_unique_item{ $user_mention }{ $uuid }
-pay-user_not_own_unique_item = pay-user_not_own_unique_item{ $uuid }
-tokenize-user_not_own_unique_item = tokenize-user_not_own_unique_item{ $uuid }
-tokenize-not_enough_item = tokenize-not_enough_item{ $item_emoji }{ $item_name }{ $item_amount }
-tokenize-decline_button = tokenize-decline_button
-tokenize-deprecated = tokenize-deprecated
-tokenize-accept_button = tokenize-accept_button
-tokenize-specify_items = tokenize-specify_items
-tokenize-declined = tokenize-declined
-tokenize-tokenizations_success = tokenize-tokenizations_success{ $token_id }{ $items }
-tokenize-waiting_for_answer = tokenize-waiting_for_answer{ $gender }{ $items }
-unpack-success = unpack-success{ $items }
-unpack-token_not_found_or_used = unpack-token_not_found_or_used
-unpack-specify_token = unpack-specify_token
-unpack-invalid_token = unpack-invalid_token
-unpack-token_used_by = unpack-token_used_by{ $token_id }{ $user_mention }{ $items }
+pay-user_not_own_unique_item =
+    ⚠️ Ты не владеешь предметом c уникальным UUID:
+    <code>{ $uuid }</code>
+trade-user_not_own_unique_item =
+    ⚠️ { $user_mention } не владеет предметом c уникальным UUID:
+    <code>{ $uuid }</code>
+tokenize-specify_items =
+    ⚠️ Укажи предметы, которые ты хочешь токенизировать
+
+    <blockquote expandable>💁‍♂️ Команда позволяет токенизировать предметы, превращая их в токены.
+
+    <b>Пример:</b>
+    ● <code>/tokenize 2 kus 3 armor</code>
+    ● <code>/tokenize dbdc91e8-ceb6-48c6-ac3e-d1137a46fd96</code></blockquote>
+tokenize-not_enough_item =
+    ⚠️ У тебя недостаточно предметов для токенизации
+
+    { $item_emoji } { $item_name }: { $item_amount }
+tokenize-user_not_own_unique_item =
+    ⚠️ Ты не владеешь предметом с уникальным UUID:
+    <code>{ $uuid }</code>
+tokenize-decline_button = ❌ Отклонить
+tokenize-accept_button = ✅ Токенизировать
+tokenize-deprecated = ⚠️ Время на ответ вышло
+tokenize-declined = ❌ Токенизация отменена
+tokenize-waiting_for_answer =
+    📦 Токенизация предметов:
+    { $items }
+
+    Ты { $gender ->
+        [m] уверен
+        [f] уверена
+       *[other] уверено
+    }, что хочешь токенизировать эти предметы?
+tokenize-tokenizations_success =
+    ✅ Токенизация успешна!
+
+    #TOKEN: <code>{ $token_id }</code>
+
+    📦 Токенизированные предметы:
+    { $items }
+
+    <blockquote expandable>💁‍♂️ Для разархивации токена используй команду <code>/unpack</code> с ID токена.
+
+    <b>Пример:</b>
+    ● <code>/unpack ffffffff-ffff-ffff-ffff-ffffffffffff</code>
+
+    💁‍♂️ Чтобы поделиться токеном с другим игроком, необходимо сделать токен публичным в /tokens</blockquote>
+unpack-invalid_token = ⚠️ Неверный Токен
+unpack-token_used_by =
+    ✅ Разархивация успешна!
+
+    { $user_mention } разархивировал токен:
+    <code>{ $token_id }</code>
+
+    📦 Разархивированные предметы:
+    { $items }
+unpack-success =
+    ✅ Разархивация успешна!
+
+    📦 Разархивированные предметы:
+    { $items }
+unpack-token_not_found_or_used = ⚠️ Токен не найден или уже использован
+unpack-specify_token =
+    ⚠️ Укажи Токен для разархивации
+
+    <blockquote expandable>💁‍♂️ Команда позволяет разархивировать Токен, превращая его в предметы.
+
+    <b>Пример:</b>
+    ● <code>/unpack ffffffff-ffff-ffff-ffff-ffffffffffff</code></blockquote>

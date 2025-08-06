@@ -73,7 +73,7 @@ star_payments-successful_payment =
     
     Проверь ваш баланс, нажав /balance
 star_payments-closed = ❌ Сеанс покупки KusCoin завершен
-star_payments-only_in_private_chat = star_payments-only_in_private_chat
-star_payments-goto_private_chat = star_payments-goto_private_chat
-refund-only_in_private_chat = refund-only_in_private_chat
-refund-goto_private_chat = refund-goto_private_chat
+star_payments-goto_private_chat = 👇 Перейти
+refund-only_in_private_chat = ⚠️ Эта команда доступна только в личном чате с ботом.
+refund-goto_private_chat = 👇 Перейти
+star_payments-only_in_private_chat = ⚠️ Эта команда доступна лишь в личном чате с ботом.
