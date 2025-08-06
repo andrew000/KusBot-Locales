@@ -12,9 +12,9 @@ shop-ask_item_amount =
     <b>🛒 Магазин</b>
     ────────────────────
     💁‍♂️ Покупаем: { $emoji } <b>{ $name }</b>
-
+    
     🗒 <i>{ $description }</i>
-
+    
     💰 Цена: <b>{ $kus_coin_price } KusCoin</b> за <b>{ $amount_per_price } шт.</b>
     ────────────────────
     💁‍♂️ Введи количество предметов для покупки:
@@ -25,7 +25,7 @@ shop-confirm_item_purchase =
     ────────────────────
     📦 Покупаем:
     { "\u2514" } { $emoji } <b>{ $name }</b>: { $actual_amount } шт.
-
+    
     💰 Общая стоимость: <b>{ $total_cost } KusCoin</b>
     ────────────────────
     💁‍♂️ Подтверди покупку, если всё верно
@@ -34,7 +34,7 @@ shop-purchase_successful =
     ────────────────────
     📦 Куплено:
     { "\u2514" } { $emoji } <b>{ $name }</b>: { $actual_amount } шт.
-
+    
     💰 Общая стоимость: <b>{ $total_cost } KusCoin</b>
     ────────────────────
     ✅ Успешная покупка!
