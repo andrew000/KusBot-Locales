@@ -9,7 +9,7 @@ restrictions-kick-usage =
     
     <b>💡 Example:</b>
     - <code>/kick @username Kick reason</code>
-    - <code>/kick id123456789 Kick reason</code>
+    - <code>/kick #123456789 Kick reason</code>
 restrictions-kick-usage-advanced =
     { restrictions-kick-usage }
     
@@ -25,7 +25,7 @@ restrictions-kick-set-user-or_-reply =
     <i>💁‍♂️ Set member's ID or reply with a command on his message.</i>
     
     <b>💡 Example:</b>
-    - <code>/kick id123456</code>
+    - <code>/kick #123456</code>
 restrictions-cant-kick-admin =
     <b>⚠ Error:</b>
     

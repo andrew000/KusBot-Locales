@@ -1,5 +1,9 @@
 settings-reload-success = ✅ Кэш настроек перезагружен!
-default-help_text = cmds-default--help-text
+default-help_text =
+    💁‍♂️ Команды бота: /commands
+    📜 Политика конфиденциальности: /privacy
+    📔 Условия использования: /terms
+    🆔 Идентификатор чата: /chat_id
 default-yuy_text =
     <code> __________________________
     / Дружочек, ты видимо не   \
@@ -17,12 +21,15 @@ default-yuy_text =
                     ||----w |
                     ||     ||
     </code>
-privacy-policy = Политика конфиденциальности
+privacy-policy = 📜 Политика конфиденциальности
 default-chat_id =
     🆔 Идентификаторы чата:
     
     CHAT_ID: <code>{ $chat_id }</code>
     TOPIC_ID: <code>{ $message_thread_id }</code>
-default-support_button = default-support_button
-default-support_text = default-support_text
-terms = terms{ $url }
+default-support_text = 💁‍♂️ В случае возникновения вопросов по платежкам обращайтесь в службу поддержки
+default-support_button = ✏️ Связаться
+terms =
+    📔 Условия использования:
+    
+    { $url }

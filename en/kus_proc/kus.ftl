@@ -187,11 +187,80 @@ member-break_-armor-and_-kus-admin =
         [f] disarmed
        *[other] disarmed
     } for a minute.
-predator_zero_kukus_quantity = predator_zero_kukus_quantity
-admin-self-kukus = admin-self-kukus{ $predator }{ $predator_gender }
-member-self-kukus = member-self-kukus{ $predator }{ $predator_gender }
-admin-kukus-protected-victim = admin-kukus-protected-victim{ $predator }{ $predator_gender }{ $victim }
-admin-kukus-admin = admin-kukus-admin{ $predator }{ $predator_gender }{ $victim }{ $victim_gender }
-admin-kukus-member = admin-kukus-member{ $predator }{ $predator_gender }{ $victim }
-member-kukus-admin = member-kukus-admin{ $predator }{ $predator_gender }{ $victim }{ $victim_gender }
-member-kukus-member = member-kukus-member{ $predator }{ $predator_gender }{ $victim }
+predator_zero_kukus_quantity =
+    ⚠️ You have <b>0 Kukus</b> in your inventory.
+    
+    💬 You can get them in @KuskaChat or refreshing them yourself using the /r command.
+admin-self-kukus =
+    Administrator { $predator } { $predator_gender ->
+        [m] bit himself with a Kukus
+        [f] bit herself with a Kukus
+       *[other] bit itself with a Kukus
+    }.
+    
+    { $predator } { $predator_gender ->
+        [m] is disarmed
+        [f] is disarmed
+       *[other] is disarmed
+    } for 5 minutes.
+member-self-kukus =
+    { $predator } { $predator_gender ->
+        [m] bit himself with a Kukus
+        [f] bit herself with a Kukus
+       *[other] bit itself with a Kukus
+    }.
+    
+    { $predator_gender ->
+        [m] He
+        [f] She
+       *[other] It
+    } cannot bite for 5 minutes.
+admin-kukus-protected-victim =
+    { $predator } { $predator_gender ->
+        [m] tried
+        [f] tried
+       *[other] tried
+    } to bite { $victim },
+    but { $victim } is protected by guardian cats 🐈.
+    
+    The guardian cats protected { $victim }.
+admin-kukus-admin =
+    Administrator { $predator } { $predator_gender ->
+        [m] bit
+        [f] bit
+       *[other] bit
+    } administrator { $victim }.
+    
+    { $victim } { $victim_gender ->
+        [m] is disarmed
+        [f] is disarmed
+       *[other] is disarmed
+    } for 5 minutes.
+admin-kukus-member =
+    Administrator { $predator } { $predator_gender ->
+        [m] bit
+        [f] bit
+       *[other] bit
+    } { $victim }.
+    
+    { $victim } cannot send messages for 5 minutes.
+member-kukus-admin =
+    { $predator } { $predator_gender ->
+        [m] bit
+        [f] bit
+       *[other] bit
+    } administrator { $victim }.
+    
+    { $victim } { $victim_gender ->
+        [m] is disarmed
+        [f] is disarmed
+       *[other] is disarmed
+    } for 5 minutes.
+member-kukus-member =
+    { $predator } { $predator_gender ->
+        [m] bit
+        [f] bit
+       *[other] bit
+    } { $victim }.
+    
+    { $victim } cannot bite for 5 minutes.

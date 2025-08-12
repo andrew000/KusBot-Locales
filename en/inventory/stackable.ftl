@@ -1,10 +1,10 @@
 item-kus-name = Kus
-item-kus-description = Иite your victim and make him silent for 1 minute!
+item-kus-description = Bite your victim and silence them for a whole minute!
 item-armor-name = Armor
-item-armor-description = Цith some chance it can protect you from the bite.
+item-armor-description = Has a chance to protect you from a bite.
 item-kukus-name = Kukus
-item-kukus-description = Іtronger version of common Kus. Allows you to bite the victim and make them silent over 5 minutes!
+item-kukus-description = An enhanced version of the regular Bite. Allows you to bite your victim and silence them for over 5 minutes!
 item-kuscoin-name = KusCoin
-item-kuscoin-description = Сurrency, can be spent for the purchase of various items.
+item-kuscoin-description = Currency that can be spent to buy various items.
 item-vip-name = VIP
-item-vip-description = item-vip-description
+item-vip-description = Special status granting access to exclusive features and items.

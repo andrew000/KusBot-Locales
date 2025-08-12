@@ -157,7 +157,22 @@ chat_settings-farewell-set-type-text =
         [sticker] { chat_settings-set-type-sticker-button }
        *[unknown] 🤷‍♂️
     }
-chat_settings-set-reports-special-chat-success-text = chat_settings-set-reports-special-chat-success-text{ $chat_id }
-chat_settings-set-text-too-long = chat_settings-set-text-too-long{ $max_length }
-chat_settings-set-topic-id-topic-closed = chat_settings-set-topic-id-topic-closed{ $mention }
-chat_settings-reset-reports-special-chat = chat_settings-reset-reports-special-chat
+chat_settings-set-reports-special-chat-success-text =
+    ✅ Report chat saved:
+    
+    CHAT_ID: <blockquote><code>{ $chat_id }</code></blockquote>
+    
+    💁‍♂️ You can now return to the settings window.
+chat_settings-set-text-too-long =
+    ⚠️ The text is too long.
+    
+    💁‍♂️ Maximum text length: <code>{ $max_length }</code> characters.
+    
+    💡 Enter a different text or use /cancel to abort.
+chat_settings-set-topic-id-topic-closed =
+    ⚠️ { $mention }, the selected Topic is closed, so the bot cannot send messages there.
+    
+    💁‍♂️ Please grant me <b>Manage Threads</b> permission in the chat admin settings or choose another Topic.
+    
+    💡 To cancel — press the button in the settings message: <blockquote><code>{ chat_settings-back }</code></blockquote> or type /cancel
+chat_settings-reset-reports-special-chat = ♻️ Reset report chat

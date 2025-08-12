@@ -172,13 +172,13 @@ trade-already_accepted =
         [m] погодився
         [f] погодилася
        *[other] { " " }
-    }. Чекай на відповідь
+    }. Очікуй на відповідь
 trade-reply_required = ⚠️ Необхідно відповісти на повідомлення
 trade-sender_chat-not_supported = ⚠️ Не можна обмінюватися предметами з каналами
 trade-bot-not_supported = ⚠️ Не можна обмінюватися предметами з ботами
 trade-cant_trade_self = ⚠️ Не можна обмінюватися предметами самим з собою
 pay-user_not_own_unique_item =
-    ⚠️ Ти не володіїш предметом з унікальним UUID:
+    ⚠️ Ти не володіш предметом з унікальним UUID:
     <code>{ $uuid }</code>
 trade-user_not_own_unique_item =
     ⚠️ { $user_mention } не володіє предметом з унікальним UUID:

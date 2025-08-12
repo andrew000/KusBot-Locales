@@ -1,7 +1,7 @@
 refresh-require_vip_lvl = refresh-require_vip_lvl{ $lvl }
 refresh-reply_user_cooldown = refresh-reply_user_cooldown{ $minutes_left }{ $seconds_left }
 refresh-reply_user_refresh_success = refresh-reply_user_refresh_success{ $reply_user_mention }
-refresh-reply_user_already_has_full_invenrory = refresh-reply_user_already_has_full_invenrory
+refresh-reply_user_already_has_full_inventory = refresh-reply_user_already_has_full_inventory
 refresh-cant_refresh_banned = refresh-cant_refresh_banned
 refresh-cant_refresh_bot = refresh-cant_refresh_bot
 self-refresh-success = self-refresh-success

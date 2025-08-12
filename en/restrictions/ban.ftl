@@ -9,7 +9,7 @@ restrictions-ban-usage =
     
     <b>💡 Example:</b>
     - <code>/ban @username 1d12h restriction reason</code>
-    - <code>/ban id123456789 1d restriction reason</code>
+    - <code>/ban #123456789 1d restriction reason</code>
 restrictions-ban-usage-advanced =
     { restrictions-ban-usage }
     
@@ -30,7 +30,7 @@ restrictions-ban-set-user-or_-reply =
     <i>💁‍♂️ Set member's ID or reply with a command on his message.</i>
     
     <b>💡 Example:</b>
-    - <code>/ban id123456</code>
+    - <code>/ban #123456</code>
 restrictions-cant-ban-admin =
     <b>⚠ Error:</b>
     

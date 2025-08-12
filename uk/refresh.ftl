@@ -1,7 +1,7 @@
 refresh-cant_refresh_bot = ⚠️ Неможливо відновити предмети Бота
 refresh-reply_user_refresh_success = ✅ Інвентар користувача { $reply_user_mention } відновлено
 refresh-cant_refresh_banned = ⚠️ Неможливо відновити предмети заблокованого користувача
-refresh-reply_user_already_has_full_invenrory = ✅ Користувач вже має повний інвентар
+refresh-reply_user_already_has_full_inventory = ✅ Користувач вже має повний інвентар
 refresh-reply_user_cooldown =
     ⚠️ Неможливо відновити предмети користувача.
     

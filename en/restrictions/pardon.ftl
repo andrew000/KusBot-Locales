@@ -9,7 +9,7 @@ restrictions-pardon-usage =
     
     <b>💡 Example:</b>
     - <code>/pardon @username Pardon reason</code>
-    - <code>/pardon id123456789 Pardon reason</code>
+    - <code>/pardon #123456789 Pardon reason</code>
 restrictions-pardon-usage-advanced =
     { restrictions-pardon-usage }
     
@@ -24,7 +24,7 @@ restrictions-pardon-set-user-or_-reply =
     <i>💁‍♂️ Set member's ID or reply with a command on his message.</i>
     
     <b>💡 Example:</b>
-    - <code>/pardon id123456</code>
+    - <code>/pardon #123456</code>
 restrictions-cant-pardon-admin =
     <b>⚠ Error:</b>
     

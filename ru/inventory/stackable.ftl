@@ -7,4 +7,4 @@ item-kukus-description = Усиленная версия обычного Кус
 item-kuscoin-name = КусьКоин
 item-kuscoin-description = Валюта, которую можно потратить на покупку разных предметов.
 item-vip-name = VIP
-item-vip-description = item-vip-description
+item-vip-description = Особый статус, который предоставляет доступ к эксклюзивным возможностям и предметам.

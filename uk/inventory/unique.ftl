@@ -1,4 +1,4 @@
-unique-default-text = unique-default-text{ $name }{ $description }{ $emoji }{ $uuid }
+unique-default-text = { $name }{ $description }{ $emoji }{ $uuid }
 unique-custom-name = Кастом
 unique-custom-description = Це унікальний предмет, який дозволяє налаштувати власні тригер, текст та анімацію Куся.
 unique-custom-text =

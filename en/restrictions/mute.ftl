@@ -9,7 +9,7 @@ restrictions-mute-usage =
     
     <b>💡 Example:</b>
     - <code>/mute @username 1d12h Mute reason</code>
-    - <code>/mute id123456789 1d Mute reason</code>
+    - <code>/mute #123456789 1d Mute reason</code>
 restrictions-mute-usage-advanced =
     { restrictions-mute-usage }
     
@@ -23,14 +23,14 @@ restrictions-mute-usage-advanced =
         · m - minutes
     💡 Example: 1d12h - 1 day 12 hour;
 restrictions-mute-set-user-or_-reply =
-    <b>⚠ Помилка:</b>
+    <b>⚠ Error:</b>
     
-    <i>— Я не змогла знайти користувача, якого ви хочете замутити.</i>
+    <i>— I couldn’t find the user you want to mute.</i>
     
-    <i>💁‍♂️ Спробуйте вказати його ID або ж відповісти командою на його повідомлення.</i>
+    <i>💁‍♂️ Try specifying their ID or reply to their message with the command.</i>
     
-    <b>💡 Приклад:</b>
-    - <code>/mute id123456</code>
+    <b>💡 Example:</b>
+    - <code>/mute #123456</code>
 restrictions-cant-mute-admin =
     <b>⚠ Error:</b>
     

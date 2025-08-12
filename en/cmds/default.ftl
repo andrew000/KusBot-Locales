@@ -1,5 +1,9 @@
 settings-reload-success = ✅ The settings cache has been reloaded!
-default-help_text = cmds-default-help-text
+default-help_text =
+    💁‍♂️ Bot commands: /commands
+    📜 Privacy policy: /privacy
+    📔 Terms of use: /terms
+    🆔 Chat ID: /chat_id
 default-yuy_text =
     <code> __________________________
     / Дружочек, ты видимо не   \
@@ -17,12 +21,15 @@ default-yuy_text =
                     ||----w |
                     ||     ||
     </code>
-privacy-policy = Privacy policy
+privacy-policy = 📜 Privacy policy
 default-chat_id =
     🆔 Chat IDs:
     
     CHAT_ID: <code>{ $chat_id }</code>
     TOPIC_ID: <code>{ $message_thread_id }</code>
-default-support_text = default-support_text
-default-support_button = default-support_button
-terms = terms{ $url }
+default-support_text = 💁‍♂️ If you have any questions about payments, please contact support
+default-support_button = ✏️ Contact
+terms =
+    📔 Terms of use:
+    
+    { $url }

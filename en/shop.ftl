@@ -1,14 +1,42 @@
-shop-cancelled = shop-cancelled
-shop-back_to_shop = shop-back_to_shop
-shop-closed = shop-closed
-shop-purchase_successful = shop-purchase_successful{ $name }{ $emoji }{ $actual_amount }{ $total_cost }
-shop-choose_item_to_buy_text = shop-choose_item_to_buy_text
-shop-confirm_item_purchase = shop-confirm_item_purchase{ $name }{ $emoji }{ $actual_amount }{ $total_cost }
-shop-ask_item_amount = shop-ask_item_amount{ $name }{ $emoji }{ $description }{ $kus_coin_price }{ $amount_per_price }
-shop-close = shop-close
-shop-purchase_failed = shop-purchase_failed
-shop-confirm = shop-confirm
-shop-only_in_private_chat = shop-only_in_private_chat
-shop-unknown_item_type = shop-unknown_item_type
-shop-goto_private_chat = shop-goto_private_chat
-shop-not_enough_kuscoin = shop-not_enough_kuscoin
+shop-close = ❌ Close
+shop-only_in_private_chat = ⚠️ This command is only available in a private chat with the bot.
+shop-cancelled = ❌ Cancelled
+shop-choose_item_to_buy_text =
+    <b>🛒 Shop</b>
+    ────────────────────
+    💁‍♂️ Choose the item you want to buy.
+shop-goto_private_chat = 👇 Go to
+shop-closed = ✅ Shop closed.
+shop-unknown_item_type = ⚠️ Unknown item type
+shop-ask_item_amount =
+    <b>🛒 Shop</b>
+    ────────────────────
+    💁‍♂️ Buying: { $emoji } <b>{ $name }</b>
+    
+    🗒 <i>{ $description }</i>
+    
+    💰 Price: <b>{ $kus_coin_price } KusCoin</b> per <b>{ $amount_per_price } pcs.</b>
+    ────────────────────
+    💁‍♂️ Enter the quantity of items to buy:
+shop-back_to_shop = ⬅️ Back
+shop-confirm = ✅ Confirm
+shop-confirm_item_purchase =
+    <b>🛒 Shop</b>
+    ────────────────────
+    📦 Buying:
+    { "\u2514" } { $emoji } <b>{ $name }</b>: { $actual_amount } pcs.
+    
+    💰 Total cost: <b>{ $total_cost } KusCoin</b>
+    ────────────────────
+    💁‍♂️ Confirm the purchase if everything is correct
+shop-purchase_successful =
+    <b>🛒 Shop</b>
+    ────────────────────
+    📦 Purchased:
+    { "\u2514" } { $emoji } <b>{ $name }</b>: { $actual_amount } pcs.
+    
+    💰 Total cost: <b>{ $total_cost } KusCoin</b>
+    ────────────────────
+    ✅ Purchase successful!
+shop-purchase_failed = ⚠️ An error occurred while purchasing the item.
+shop-not_enough_kuscoin = ⚠️ Not enough KusCoin to buy this quantity of items.
