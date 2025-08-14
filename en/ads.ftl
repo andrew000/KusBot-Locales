@@ -13,3 +13,5 @@ ads-got_reward =
     ✅ { $mention } received a reward for watching an ad:
     
     { $item_emoji } { $item_name }: { $amount }
+ads-subscribe = ↖️ Subscribe
+ads-subscription_required = ⚠️ You need to subscribe to the group/channel to get the reward.

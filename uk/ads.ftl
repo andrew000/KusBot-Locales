@@ -13,3 +13,5 @@ ads-got_reward =
     ✅ { $mention } отримав нагороду за перегляд реклами:
     
     { $item_emoji } { $item_name }: { $amount }
+ads-subscribe = ↖️ Підписатися
+ads-subscription_required = ⚠️ Щоб отримати нагороду, необхідно бути учасником групи/каналу.
