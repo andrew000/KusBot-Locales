@@ -46,3 +46,4 @@ report-message-text =
     <b>Додаткова інформація:</b><blockquote expandable>
     Причина скарги: <i>{ $reason }</i>
     Матеріали справи: { $violation_message }</blockquote>
+special-report-reported_successfully = ✅ Адміністрація сповіщена про порушення.
