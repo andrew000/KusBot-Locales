@@ -190,7 +190,7 @@ tokenize-specify_items =
     
     <b>Пример:</b>
     ● <code>/tokenize 2 kus 3 armor</code>
-    ● <code>/tokenize dbdc91e8-ceb6-48c6-ac3e-d1137a46fd96</code></blockquote>
+    ● <code>/tokenize ffffffff-ffff-ffff-ffff-ffffffffffff</code></blockquote>
 tokenize-not_enough_item =
     ⚠️ У тебя недостаточно предметов для токенизации
     
