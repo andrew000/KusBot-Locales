@@ -47,3 +47,4 @@ report-message-text =
     Reason for report: <i>{ $reason }</i>
     Report materials: { $violation_message }</blockquote>
 special-report-reported_successfully = ✅ Admin has been notified about the violation.
+special-report-message-button = ➡️ Go to violation

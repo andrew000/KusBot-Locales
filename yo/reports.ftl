@@ -9,3 +9,4 @@ special-report-message-text = special-report-message-text{ $chat_id }{ $chat_tit
 report-message-text = report-message-text{ $reporter_id }{ $reporter_mention }{ $reported_id }{ $reported_mention }{ $violation_message }{ $reason }
 report-cannot-report-selfbot = report-cannot-report-selfbot
 special-report-reported_successfully = special-report-reported_successfully
+special-report-message-button = special-report-message-button

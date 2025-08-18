@@ -47,3 +47,4 @@ report-message-text =
     Причина жалобы: <i>{ $reason }</i>
     Материалы дела: { $violation_message }</blockquote>
 special-report-reported_successfully = ✅ Администрация оповещена о жалобе.
+special-report-message-button = ➡️ К нарушению
