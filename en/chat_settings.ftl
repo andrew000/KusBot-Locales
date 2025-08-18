@@ -176,3 +176,13 @@ chat_settings-set-topic-id-topic-closed =
     
     💡 To cancel — press the button in the settings message: <blockquote><code>{ chat_settings-back }</code></blockquote> or type /cancel
 chat_settings-reset-reports-special-chat = ♻️ Reset report chat
+chat_settings-game-kus_enabled_switch =
+    { $kus_enabled ->
+        [0] ❌ Kus disabled
+        [1] ✅ Kus enabled
+       *[2] 🤷‍♂️
+    }
+chat_settings-game-window-text =
+    <b>🎮 Game settings</b>
+    
+    💁‍♂️ Here you can setup game settings, Bot can manage in this chat.

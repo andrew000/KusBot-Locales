@@ -236,3 +236,13 @@ chat_settings-farewell-set-type-text =
         [sticker] { chat_settings-set-type-sticker-button }
        *[unknown] 🤷‍♂️
     }
+chat_settings-game-kus_enabled_switch =
+    { $kus_enabled ->
+        [0] ❌ Кусі вимкнено
+        [1] ✅ Кусі увімкнено
+       *[2] 🤷‍♂️
+    }
+chat_settings-game-window-text =
+    <b>🎮 Налаштування ігор</b>
+    
+    💁‍♂️ У цьому вікні ти можеш налаштувати ігри, якими бот буде керувати у цьому чаті.
