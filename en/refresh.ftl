@@ -1,6 +1,5 @@
 refresh-cant_refresh_bot = ⚠️ Cannot restore Bot’s items
 refresh-reply_user_refresh_success = ✅ Inventory of user { $reply_user_mention } restored
-refresh-cant_refresh_banned = ⚠️ Cannot restore items of a banned user
 refresh-reply_user_already_has_full_inventory = ✅ User already has a full inventory
 refresh-reply_user_cooldown =
     ⚠️ Cannot restore user’s items.

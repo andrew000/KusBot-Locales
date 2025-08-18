@@ -22,7 +22,7 @@ commands-admin-list =
     
     /ban - Block user
     /pardon - Unblock user
-    /mute - Mute yser
+    /mute - Mute user
     /kick - Kick user
     /chat_settings - Chat settings
 vip-command-list-button = 👑 VIP

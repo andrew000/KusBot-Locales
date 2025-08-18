@@ -1,7 +1,7 @@
 ads-ad_view_cooldown =
     ⚠️ You have already watched an ad.
     
-    Please wait { $hours_left } hours { $minutes_left } minutes { $seconds_left } seconds.
+    Please wait { $hours_left } h { $minutes_left } min { $seconds_left } sec.
 ads-got_super_reward =
     ──<b>⚠️ WARNING! ⚠️</b>──
     <b>😱 SUPER REWARD 😱</b>
