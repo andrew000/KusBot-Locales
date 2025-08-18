@@ -1,8 +1,0 @@
-refresh-require_vip_lvl = refresh-require_vip_lvl{ $lvl }
-refresh-reply_user_cooldown = refresh-reply_user_cooldown{ $minutes_left }{ $seconds_left }
-refresh-reply_user_refresh_success = refresh-reply_user_refresh_success{ $reply_user_mention }
-refresh-reply_user_already_has_full_inventory = refresh-reply_user_already_has_full_inventory
-refresh-cant_refresh_bot = refresh-cant_refresh_bot
-self-refresh-success = self-refresh-success
-self-refresh-already_full_inventory = self-refresh-already_full_inventory
-self-refresh-cooldown = self-refresh-cooldown{ $minutes_left }{ $seconds_left }
