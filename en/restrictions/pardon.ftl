@@ -57,3 +57,7 @@ restrictions-pardon-error =
     <i>— I can't pardon member.</i>
     
     <i>💁‍♂️ Check my admin rights.</i>
+restrictions-cant-pardon-owner =
+    <b>⚠ Error:</b>
+    
+    <i>— I can't pardon the group owner.</i>

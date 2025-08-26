@@ -56,3 +56,7 @@ restrictions-pardon-sender-chat-text =
     ADMIN: { $admin_mention }
     
     Причина: { $reason }
+restrictions-cant-pardon-owner =
+    <b>⚠ Помилка:</b>
+    
+    <i>— Я не можу розблокувати власника чату.</i>

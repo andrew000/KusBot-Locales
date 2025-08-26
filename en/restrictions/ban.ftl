@@ -64,3 +64,7 @@ restrictions-ban-sender-chat-text =
     ADMIN: { $admin_mention }
     
     Reason: { $reason }
+restrictions-cant-ban-owner =
+    <b>⚠ Error:</b>
+    
+    <i>— I can't ban the group owner.</i>

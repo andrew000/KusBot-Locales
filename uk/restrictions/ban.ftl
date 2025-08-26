@@ -63,3 +63,7 @@ restrictions-ban-sender-chat-text =
     ADMIN: { $admin_mention }
     
     Причина: { $reason }
+restrictions-cant-ban-owner =
+    <b>⚠ Помилка:</b>
+    
+    <i>— Я не можу заблокувати власника чату. 🤷‍♂️</i>
