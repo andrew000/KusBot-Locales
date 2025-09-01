@@ -26,6 +26,7 @@ default-chat_id =
     🆔 Chat IDs:
     
     CHAT_ID: <code>{ $chat_id }</code>
+    CHAT_TYPE: <code>{ $chat_type }</code>
     TOPIC_ID: <code>{ $message_thread_id }</code>
 default-support_text = 💁‍♂️ If you have any questions about payments, please contact support
 default-support_button = ✏️ Contact

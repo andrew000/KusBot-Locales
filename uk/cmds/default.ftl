@@ -26,6 +26,7 @@ default-chat_id =
     🆔 Ідентифікатори чату:
     
     CHAT_ID: <code>{ $chat_id }</code>
+    CHAT_TYPE: <code>{ $chat_type }</code>
     TOPIC_ID: <code>{ $message_thread_id }</code>
 default-support_text = 💁‍♂️ У разі виникнення питань по платіжкам, звертайтесь до служби підтримки
 default-support_button = ✏️ Зв'язатися

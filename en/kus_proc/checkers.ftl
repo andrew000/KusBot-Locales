@@ -21,3 +21,7 @@ bot-does-not_-have-permissions-to-process-kus =
     { $can_restrict_members } Can restrict members
     
     More information about the bot can be found below
+kus-only_in_supergroup =
+    ⚠️ Kus function is only available in <b>Supergroups</b>.
+    
+    To use the Kus function, convert your group to a supergroup.
